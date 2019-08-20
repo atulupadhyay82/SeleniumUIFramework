@@ -1,0 +1,182 @@
+2019-47-07 20:08:120 INFO  LoggerHelper:25 - logger is configured
+2019-47-07 20:08:125 INFO  LoggerHelper:26 - logger is configured
+2019-47-07 20:08:125 INFO  LoggerHelper:27 - logger is configured
+2019-47-07 20:08:212 INFO  LoggerHelper:25 - logger is configured
+2019-47-07 20:08:216 INFO  LoggerHelper:26 - logger is configured
+2019-47-07 20:08:217 INFO  LoggerHelper:27 - logger is configured
+2019-52-07 20:08:297 INFO  LoggerHelper:27 - logger is configured
+2019-52-07 20:08:302 INFO  LoggerHelper:28 - logger is configured
+2019-52-07 20:08:307 INFO  LoggerHelper:29 - logger is configured
+2019-40-18 01:08:499 INFO  WaitHelper:31 - Retrying test: testMethod4 with status FAILED for 2 times
+2019-40-18 01:08:511 INFO  WaitHelper:31 - Retrying test: testMethod4 with status FAILED for 3 times
+2019-40-18 01:08:568 INFO  WaitHelper:31 - Retrying test: testMethod2 with status FAILED for 2 times
+2019-40-18 01:08:573 INFO  WaitHelper:31 - Retrying test: testMethod2 with status FAILED for 3 times
+2019-40-18 01:08:588 INFO  WaitHelper:31 - Retrying test: testMethod3 with status FAILED for 2 times
+2019-40-18 01:08:592 INFO  WaitHelper:31 - Retrying test: testMethod3 with status FAILED for 3 times
+2019-40-18 01:08:822 INFO  WaitHelper:31 - Retrying test: testMethod4 with status FAILED for 1 times
+2019-40-18 01:08:834 INFO  WaitHelper:31 - Retrying test: testMethod4 with status FAILED for 2 times
+2019-40-18 01:08:841 INFO  WaitHelper:31 - Retrying test: testMethod4 with status FAILED for 3 times
+2019-40-18 01:08:894 INFO  WaitHelper:31 - Retrying test: testMethod2 with status FAILED for 1 times
+2019-40-18 01:08:898 INFO  WaitHelper:31 - Retrying test: testMethod2 with status FAILED for 2 times
+2019-40-18 01:08:906 INFO  WaitHelper:31 - Retrying test: testMethod2 with status FAILED for 3 times
+2019-40-18 01:08:912 INFO  WaitHelper:31 - Retrying test: testMethod3 with status FAILED for 1 times
+2019-40-18 01:08:915 INFO  WaitHelper:31 - Retrying test: testMethod3 with status FAILED for 2 times
+2019-40-18 01:08:918 INFO  WaitHelper:31 - Retrying test: testMethod3 with status FAILED for 3 times
+2019-22-18 19:08:102 INFO  DropdownHelper:144 - exception occured: null
+2019-22-18 19:08:435 INFO  DropdownHelper:144 - exception occured: null
+2019-23-18 19:08:827 INFO  ExceLHelper:144 - exception occured: null
+2019-24-18 19:08:885 INFO  ExceLHelper:144 - exception occured: null
+2019-25-18 19:08:403 INFO  ExceLHelper:144 - exception occured: null
+2019-26-18 19:08:143 INFO  ExceLHelper:146 - exception occured: null
+2019-26-18 19:08:911 INFO  ExceLHelper:146 - exception occured: null
+2019-29-18 19:08:871 INFO  ExceLHelper:146 - exception occured: null
+2019-14-18 20:08:631 INFO  ExceLHelper:191 - exception occured: null
+2019-14-18 20:08:668 INFO  ExceLHelper:191 - exception occured: null
+2019-14-18 20:08:699 INFO  ExceLHelper:191 - exception occured: null
+2019-14-18 20:08:713 INFO  ExceLHelper:175 - results updated..
+2019-14-18 20:08:919 INFO  ExceLHelper:175 - results updated..
+2019-14-18 20:08:998 INFO  ExceLHelper:175 - results updated..
+2019-56-19 06:08:854 INFO  AssertionHelper:32 - making script pass..
+2019-56-19 06:08:260 INFO  AssertionHelper:44 - making script fail..
+2019-56-19 06:08:420 INFO  AssertionHelper:32 - making script pass..
+2019-56-19 06:08:488 INFO  AssertionHelper:44 - making script fail..
+2019-58-19 06:08:984 INFO  AssertionHelper:32 - making script pass..
+2019-58-19 06:08:334 INFO  AssertionHelper:44 - making script fail..
+2019-58-19 06:08:456 INFO  AssertionHelper:32 - making script pass..
+2019-58-19 06:08:512 INFO  AssertionHelper:44 - making script fail..
+2019-02-19 07:08:728 INFO  AssertionHelper:32 - making script pass..
+2019-02-19 07:08:104 INFO  AssertionHelper:44 - making script fail..
+2019-02-19 07:08:206 INFO  AssertionHelper:32 - making script pass..
+2019-02-19 07:08:268 INFO  AssertionHelper:44 - making script fail..
+2019-02-19 07:08:328 INFO  AssertionHelper:32 - making script pass..
+2019-02-19 07:08:390 INFO  AssertionHelper:44 - making script fail..
+2019-02-19 07:08:450 INFO  AssertionHelper:32 - making script pass..
+2019-02-19 07:08:504 INFO  AssertionHelper:44 - making script fail..
+2019-12-19 10:08:843 INFO  TestBase:153 - Initialize web driver: 52514534
+2019-12-19 10:08:847 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-12-19 10:08:853 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-12-19 10:08:857 INFO  WaitHelper:124 - page is loaded now
+2019-49-19 20:08:497 INFO  TestBase:166 - Initialize web driver: 1361393151
+2019-49-19 20:08:502 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-49-19 20:08:509 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-49-19 20:08:512 INFO  WaitHelper:124 - page is loaded now
+2019-54-19 20:08:54 INFO  TestBase:174 - Initialize web driver: 1361393151
+2019-54-19 20:08:104 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-54-19 20:08:109 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-54-19 20:08:112 INFO  WaitHelper:124 - page is loaded now
+2019-56-19 20:08:336 INFO  TestBase:174 - Initialize web driver: 1361393151
+2019-56-19 20:08:344 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-56-19 20:08:363 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-56-19 20:08:374 INFO  WaitHelper:124 - page is loaded now
+2019-04-19 21:08:223 INFO  ExtentListener:76 - firsttest Test started..
+2019-04-19 21:08:248 INFO  ExtentListener:38 - testMethod4 Test started..
+2019-04-19 21:08:255 ERROR ExtentListener:53 - testMethod4 Test failure..
+2019-04-19 21:08:286 INFO  ExtentListener:84 - firsttest Test finished..
+2019-04-19 21:08:288 INFO  ExtentListener:76 - secondtest Test started..
+2019-04-19 21:08:291 INFO  ExtentListener:38 - testMethodB1 Test started..
+2019-04-19 21:08:295 ERROR ExtentListener:53 - testMethodB1 Test failure..
+2019-04-19 21:08:297 INFO  ExtentListener:38 - testMethodB2 Test started..
+2019-04-19 21:08:299 ERROR ExtentListener:53 - testMethodB2 Test failure..
+2019-04-19 21:08:323 INFO  ExtentListener:84 - secondtest Test finished..
+2019-04-19 21:08:326 INFO  ExtentListener:76 - thirdtest Test started..
+2019-04-19 21:08:328 INFO  ExtentListener:38 - testMethod1 Test started..
+2019-04-19 21:08:330 INFO  ExtentListener:46 - testMethod1 Test passed..
+2019-04-19 21:08:342 INFO  ExtentListener:84 - thirdtest Test finished..
+2019-04-19 21:08:345 INFO  ExtentListener:76 - TakeScreenshot Test started..
+2019-04-19 21:08:891 INFO  TestBase:174 - Initialize web driver: 968113504
+2019-04-19 21:08:894 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-04-19 21:08:914 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-04-19 21:08:918 INFO  WaitHelper:124 - page is loaded now
+2019-04-19 21:08:82 INFO  ExtentListener:38 - takeScreens Test started..
+2019-04-19 21:08:976 INFO  ExtentListener:46 - takeScreens Test passed..
+2019-04-19 21:08:333 INFO  ExtentListener:84 - TakeScreenshot Test finished..
+2019-07-19 21:08:796 INFO  ExtentListener:76 - A Test started..
+2019-07-19 21:08:817 INFO  ExtentListener:38 - testMethod1 Test started..
+2019-07-19 21:08:820 INFO  ExtentListener:46 - testMethod1 Test passed..
+2019-07-19 21:08:846 INFO  ExtentListener:84 - A Test finished..
+2019-07-19 21:08:849 INFO  ExtentListener:76 - B Test started..
+2019-07-19 21:08:851 INFO  ExtentListener:38 - testMethodB1 Test started..
+2019-07-19 21:08:855 ERROR ExtentListener:53 - testMethodB1 Test failure..
+2019-07-19 21:08:857 INFO  ExtentListener:38 - testMethodB2 Test started..
+2019-07-19 21:08:860 ERROR ExtentListener:53 - testMethodB2 Test failure..
+2019-07-19 21:08:882 INFO  ExtentListener:84 - B Test finished..
+2019-07-19 21:08:883 INFO  ExtentListener:76 - C Test started..
+2019-07-19 21:08:886 INFO  ExtentListener:38 - testMethod4 Test started..
+2019-07-19 21:08:889 ERROR ExtentListener:53 - testMethod4 Test failure..
+2019-07-19 21:08:902 INFO  ExtentListener:84 - C Test finished..
+2019-07-19 21:08:903 INFO  ExtentListener:76 - TakeScreenshot Test started..
+2019-08-19 21:08:382 INFO  TestBase:174 - Initialize web driver: 968113504
+2019-08-19 21:08:384 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-08-19 21:08:399 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-08-19 21:08:403 INFO  WaitHelper:124 - page is loaded now
+2019-08-19 21:08:563 INFO  ExtentListener:38 - takeScreens Test started..
+2019-08-19 21:08:328 INFO  ExtentListener:46 - takeScreens Test passed..
+2019-08-19 21:08:694 INFO  ExtentListener:84 - TakeScreenshot Test finished..
+2019-09-19 21:08:403 INFO  ExtentListener:76 - A Test started..
+2019-09-19 21:08:154 INFO  TestBase:174 - Initialize web driver: 951031848
+2019-09-19 21:08:156 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-09-19 21:08:163 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-09-19 21:08:167 INFO  WaitHelper:124 - page is loaded now
+2019-09-19 21:08:354 INFO  ExtentListener:38 - testMethod1 Test started..
+2019-09-19 21:08:359 INFO  ExtentListener:46 - testMethod1 Test passed..
+2019-09-19 21:08:374 INFO  ExtentListener:84 - A Test finished..
+2019-09-19 21:08:386 INFO  ExtentListener:76 - B Test started..
+2019-09-19 21:08:574 INFO  TestBase:174 - Initialize web driver: 1466917878
+2019-09-19 21:08:575 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-09-19 21:08:578 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-09-19 21:08:583 INFO  WaitHelper:124 - page is loaded now
+2019-09-19 21:08:725 INFO  ExtentListener:38 - testMethodB1 Test started..
+2019-09-19 21:08:735 ERROR ExtentListener:53 - testMethodB1 Test failure..
+2019-09-19 21:08:182 INFO  ExtentListener:38 - testMethodB2 Test started..
+2019-09-19 21:08:188 ERROR ExtentListener:53 - testMethodB2 Test failure..
+2019-09-19 21:08:724 INFO  ExtentListener:84 - B Test finished..
+2019-09-19 21:08:727 INFO  ExtentListener:76 - C Test started..
+2019-09-19 21:08:779 INFO  TestBase:174 - Initialize web driver: 788905599
+2019-09-19 21:08:779 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-09-19 21:08:784 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-09-19 21:08:787 INFO  WaitHelper:124 - page is loaded now
+2019-09-19 21:08:920 INFO  ExtentListener:38 - testMethod4 Test started..
+2019-09-19 21:08:923 ERROR ExtentListener:53 - testMethod4 Test failure..
+2019-09-19 21:08:338 INFO  ExtentListener:84 - C Test finished..
+2019-09-19 21:08:342 INFO  ExtentListener:76 - TakeScreenshot Test started..
+2019-09-19 21:08:508 INFO  TestBase:174 - Initialize web driver: 817689537
+2019-09-19 21:08:510 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-09-19 21:08:514 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-09-19 21:08:517 INFO  WaitHelper:124 - page is loaded now
+2019-09-19 21:08:667 INFO  ExtentListener:38 - takeScreens Test started..
+2019-09-19 21:08:611 INFO  ExtentListener:46 - takeScreens Test passed..
+2019-09-19 21:08:407 INFO  ExtentListener:84 - TakeScreenshot Test finished..
+2019-30-19 21:08:647 INFO  ExtentListener:76 - A Test started..
+2019-30-19 21:08:76 INFO  TestBase:174 - Initialize web driver: 951031848
+2019-30-19 21:08:78 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-30-19 21:08:85 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-30-19 21:08:88 INFO  WaitHelper:124 - page is loaded now
+2019-30-19 21:08:281 INFO  ExtentListener:38 - testMethod1 Test started..
+2019-30-19 21:08:290 INFO  ExtentListener:46 - testMethod1 Test passed..
+2019-30-19 21:08:291 INFO  ExtentListener:84 - A Test finished..
+2019-30-19 21:08:296 INFO  ExtentListener:76 - B Test started..
+2019-30-19 21:08:464 INFO  TestBase:174 - Initialize web driver: 1466917878
+2019-30-19 21:08:464 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-30-19 21:08:468 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-30-19 21:08:472 INFO  WaitHelper:124 - page is loaded now
+2019-30-19 21:08:616 INFO  ExtentListener:38 - testMethodB1 Test started..
+2019-30-19 21:08:620 ERROR ExtentListener:53 - testMethodB1 Test failure..
+2019-30-19 21:08:37 INFO  ExtentListener:38 - testMethodB2 Test started..
+2019-30-19 21:08:43 ERROR ExtentListener:53 - testMethodB2 Test failure..
+2019-30-19 21:08:597 INFO  ExtentListener:84 - B Test finished..
+2019-30-19 21:08:599 INFO  ExtentListener:76 - C Test started..
+2019-30-19 21:08:350 INFO  TestBase:174 - Initialize web driver: 788905599
+2019-30-19 21:08:350 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-30-19 21:08:353 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-30-19 21:08:359 INFO  WaitHelper:124 - page is loaded now
+2019-30-19 21:08:504 INFO  ExtentListener:38 - testMethod4 Test started..
+2019-30-19 21:08:510 ERROR ExtentListener:53 - testMethod4 Test failure..
+2019-30-19 21:08:973 INFO  ExtentListener:84 - C Test finished..
+2019-30-19 21:08:978 INFO  ExtentListener:76 - TakeScreenshot Test started..
+2019-30-19 21:08:164 INFO  TestBase:174 - Initialize web driver: 817689537
+2019-30-19 21:08:164 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-30-19 21:08:168 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-30-19 21:08:171 INFO  WaitHelper:124 - page is loaded now
+2019-30-19 21:08:345 INFO  ExtentListener:38 - takeScreens Test started..
+2019-30-19 21:08:227 ERROR ExtentListener:53 - takeScreens Test failure..
+2019-30-19 21:08:266 INFO  ExtentListener:84 - TakeScreenshot Test finished..

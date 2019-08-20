@@ -1,0 +1,4 @@
+Pageobject for every page in the application. No of classes= no of pages in the application (login page, home page, summary page, payment page
+product category page in typical ecommerce application)
+for complex application, that can have submodule page. So we design one more folder inside the pageobject let say homepage. Assume that home page 
+has lot of 5 to 6 pages

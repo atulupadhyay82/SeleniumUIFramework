@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.uiFramework.companyName.projectName.helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="B(failed)">
+    <classes>
+      <class name="com.uiFramework.B">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMethodB2"/>
+          <include name="testMethodB1"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFramework.B -->
+    </classes>
+  </test> <!-- B(failed) -->
+  <test thread-count="5" name="C(failed)">
+    <classes>
+      <class name="com.uiFramework.C">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMethod4"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFramework.C -->
+    </classes>
+  </test> <!-- C(failed) -->
+  <test thread-count="5" name="TakeScreenshot(failed)">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.TestScreenShot">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="takeScreens"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.TestScreenShot -->
+    </classes>
+  </test> <!-- TakeScreenshot(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

@@ -1,0 +1,7 @@
+Sometime we have to read the data from the excel file then supply to our test scripts. For that we need helper class which will
+perform the same thing.
+We need to use apache.poi and apache.poi.poixml jar to work with excel sheet. Their version should be same in "pom.xml" otherwise it will
+throw an exception.We already add the dependency for them..
+
+1- we first need to create an object of workbook (which can contain many sheets)
+2- then the object of sheet from which we want to read the data
