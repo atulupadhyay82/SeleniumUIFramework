@@ -1,15 +1,72 @@
 Jenkins-  How we can integrate Jenkins with any framework.
 
-Configuration part
-1) you need to download tomcat server(v8,v7)
-2) Jenkin war file download
-3) place jenkin.war file inside webapps folder of apache tomcat
-4) run startup file from bin folder of apache tomcat
-5) it will deploy jenkin.war
-6) If you are tomcat server is not getting up on port 8080 then it means some other app is listening on the same port. So change the port from server.xml placed in conf folder
-of tomcat server- <Connector port="8080"> to port="8089". Save and close it.
-7) rerun the server again. It will start on port 8089. It will create admin user and also generate the password for it and save it in some location.
-8) to check if it is up, then go to browser and go to this URL- localhost:8089. It will open apache tomcat webpage
-9) Hit the following URL- localhost:8089/jenkins, enter the admin password from the filelocation which tomcat mentioned for your admin password.
-10) Click on suggested plugins. Once all the plugins are installed, then you have been asked to create first admin user.
-11) After this your jenkin is up now and 
+Q- Configuration part
+	1) you need to download tomcat server(v8,v7)
+	2) Jenkin war file download
+	3) place jenkin.war file inside webapps folder of apache tomcat
+	4) run startup file from bin folder of apache tomcat
+	5) it will deploy jenkin.war
+	6) If you are tomcat server is not getting up on port 8080 then it means some other app is listening on the same port. So change the port from server.xml placed in conf folder
+	of tomcat server- <Connector port="8080"> to port="8089". Save and close it.
+	7) rerun the server again. It will start on port 8089. It will create admin user and also generate the password for it and save it in some location.
+	8) to check if it is up, you will get the message on console i.e."your jenkins is fully up and running or go to browser and go to this URL- localhost:8089. It will open apache tomcat webpage
+	9) Hit the following URL- localhost:8089/jenkins, enter the admin password from the file location which tomcat mentioned for your admin password.
+	10) Click on suggested plugins. Once all the plugins are installed, then you have been asked to create first admin user.
+	11) After this your jenkin is up now, you now setup your project
+
+	Now you are good to go.
+
+Q- Before creating project, we need to setup some configurations
+	1) Go to this Jenkin arrow buttons> manage jenkins> global tool configuration
+	2) give up the java SDK location (upto jdk folder in java_home)
+	3) give the location of git location. Download gitbash and get it installed, don't do anything while installation
+	(gir/bin/git.exe)
+	4) add maven, write M2_HOME AND Checked the checkbox of "install automatically"
+	5) save it
+	
+	6)again go to the jenkins>manage jenkins>manage plugins>
+	a) click on Available > click on testNG result >install without restart> will take sometime before added 
+	b)Click on available>HTML publisher> install it
+	
+	These 2 plugins are enough for our purpose.
+
+
+Q- How to supply jenkins variable to selenium test scripts
+	A- As of now, tests are running  for following URL http://automationpractice.com. Now I will override that URl and will supply from jenkins to pom.xml. Then In PropetyReader class, system.getproperties()
+	for URL will return the actual URL, not the null.
+	
+	So you go to configure on the homepage> then  check the checkbox "This project is parameterized >Add parameter> add variable from the <name> tag in pom.xml>clcick on save. Then go to the build section
+	on configuration page >check the checkbox "inject build variables"
+	
+	And when you go with "build with parameter", these two parameter will come and you can change their value also at the run time while building, get supplied to pom.xml variables.
+	
+	If you are not providing the value from the jenkins or vm argument to pom.xml, then PropertyReader class can go with option-2 i.e. from the properties file in your framework.
+	
+	
+	There is one more type of parameter i.e. choice parameter like envirnoment, Give three values to it- qa, stage, prod. It will comes as a dropdown at the time of building the project. And you can 
+	read of them in pom.xml via defining them there and then reading them by System.getProperty()
+	
+Q- How to schedule the jobs in jenkins
+A-	In the company, we can schedule the jobs. And whenever the schedule time comes, your jenkins jobs will start executing your testscript automatically.
+	Go to Configure on the homepage >Build triggers>Build periodically and give the expression (search on google for them) like H/2 **** -> this expression will trigger the build after 2 mins a
+	automatically. There are many expression for many scenarios- like running the build automatically at everyday in 2AM. We mostly do in our company. When we are leaving the company, we schedule the 
+	job to run in midnight and next day we will get the build. All our reports are ready, analyzed them if there is any failure then fix them.
+	 We call these experssion called cron expression.can be schedule for once in the week, everyday at this time like that as per the requirement.
+
+Q- How to publish the report results
+	A- Get this plugin Email extension plugin and check this, install this. It will send the report to the people configured in the receipent list. This require SMTP server configuration, not possible
+	locally. You can configure this in "Add post-build action"> Editable email notification. You can attach build log with the default content.Click on apply then save it. After build is over, it will
+	send the email with the log to all the receipent
+	
+Q- How to Create the project and run the test.
+	A- Create New Jobs>Enter an item name> go for freestyle project>Come on to configure page>  in general, use custom workspace> check this> entire the local directory path of your project and
+	give some Display name (like project name). Then go to build section> add build step> click on invoke maven top target> select maven version as M2_Home (which we have give earlier)> goals- >clean install,
+	test> pom=pom.xml. Then select "post build actions"> select publish testNG xml > keep the default setting as it is. Then select one more "Publish HTML report". Html report is nothing but is the extent 
+	report. We have change the location of extent report generation. Now it is in resource/report folder (make changes in ExtentManager class).
+	Get the location of extend report and give it to in Html directory to archieve . Index page= extent.html and report title= Extent Report. Now you can keep past htnl reports . Click on apply and click
+	on save.Now you have added your testNG suite in pom.xml. Once you start the build, those testcase will also get excecuted. You can see the logs on the console output. Your testNg report and Extent report
+	also get generated. But there is problem in viewing the extent report on jenkins as it don't load the css. To view this properly, You can check this from your project.
+	
+	You can access the project from the remote location. Jenkins will help you to run your test remotely i.e. they will not execute locally and they will execute on machine it is hosted
+			 
+		 
