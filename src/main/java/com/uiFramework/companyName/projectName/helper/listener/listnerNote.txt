@@ -1,6 +1,0 @@
-listener class will listen your testscripts and based ont their status, it will report log data for you in the email report and extentreport.
-
-Note:
-extentReports.createTest(context.getName());-  This will give us test name which we have given in testNG xml file
-
-extentReports.createTest(getClass().getName());- this will give us absolute class name along with package of the class from where it is called

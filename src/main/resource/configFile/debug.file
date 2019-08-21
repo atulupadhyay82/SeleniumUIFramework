@@ -1,4 +1,0 @@
-apply breakpoints or debug points
-F8- will run the execution till the next breakpoint
-F6- will run the execution line by line
-Need to run the application in debug mode for this "Debug as"

@@ -1,4 +1,0 @@
-lot of time while designing the framework, we are communicating with the data base, getting the data from there and then evaluate.
-I have used mysql-connector dependency for this in pom.xml
-
-to coneect to the db, we need to know db url, username, password

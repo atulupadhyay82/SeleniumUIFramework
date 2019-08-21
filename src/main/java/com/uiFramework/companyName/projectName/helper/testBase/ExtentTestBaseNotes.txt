@@ -1,3 +1,0 @@
-It is integral part of an framework where we do object initialization required for the testscripts, driver object creation and report initialization
-all these things happened in testbase so that it become easy to support your testscripts as all the testscripts is going to extend your 
-testbase. it will form the base of the test.

@@ -1,0 +1,15 @@
+Jenkins-  How we can integrate Jenkins with any framework.
+
+Configuration part
+1) you need to download tomcat server(v8,v7)
+2) Jenkin war file download
+3) place jenkin.war file inside webapps folder of apache tomcat
+4) run startup file from bin folder of apache tomcat
+5) it will deploy jenkin.war
+6) If you are tomcat server is not getting up on port 8080 then it means some other app is listening on the same port. So change the port from server.xml placed in conf folder
+of tomcat server- <Connector port="8080"> to port="8089". Save and close it.
+7) rerun the server again. It will start on port 8089. It will create admin user and also generate the password for it and save it in some location.
+8) to check if it is up, then go to browser and go to this URL- localhost:8089. It will open apache tomcat webpage
+9) Hit the following URL- localhost:8089/jenkins, enter the admin password from the filelocation which tomcat mentioned for your admin password.
+10) Click on suggested plugins. Once all the plugins are installed, then you have been asked to create first admin user.
+11) After this your jenkin is up now and 
