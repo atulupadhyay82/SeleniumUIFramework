@@ -1,4 +1,4 @@
-package com.uiFramework.companyName.projectName.helper.browserConfig.config;
+package com.uiFramework.companyName.projectName.helper.config;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -48,6 +48,34 @@ public class PropertyReader implements ConfigReader {
 	public BrowserType getBrowserType() {
 		// TODO Auto-generated method stub
 		return BrowserType.valueOf(prop.getProperty("browserType"));
+	}
+
+	public String getURL() {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * to read data from pom.xml
+		 */
+		if(System.getProperty("url")!=null) {
+			return System.getProperty("url");
+		}
+		return prop.getProperty("applicationURL");
+	}
+
+	public String getUserName() {
+		// TODO Auto-generated method stub
+		if(System.getProperty("url")!=null) {
+			return System.getProperty("url");
+		}
+		return prop.getProperty("username");
+	}
+
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		if(System.getProperty("url")!=null) {
+			return System.getProperty("url");
+		}
+		return prop.getProperty("password");
 	}
 
 }

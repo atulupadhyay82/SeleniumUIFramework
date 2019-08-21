@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.aventstack.extentreports.Status;
 import com.uiFramework.companyName.projectName.helper.assertion.VerificationHelper;
-import com.uiFramework.companyName.projectName.helper.browserConfig.config.ObjectReader;
+import com.uiFramework.companyName.projectName.helper.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.javaScript.JavaScriptHelper;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
 import com.uiFramework.companyName.projectName.helper.testBase.TestBase;
@@ -62,6 +62,9 @@ public class LoginPage {
 	
 	@FindBy(xpath="//*[@id='create-account_form']/div/p")
 	WebElement createAnAccountText;
+	
+	@FindBy(xpath="//*[@id=\"header\"]/div[2]/div/div/nav/div[2]/a")
+	WebElement signOut;
 	
 	/*
 	 * Calling script page will call this pageoject class via his constructor
@@ -128,7 +131,8 @@ public class LoginPage {
 		return new RegistrationPage(driver);
 	}
 	
-	/*
+	/**
+	 * 
 	 * consolidated method for 1 workflow like signIN
 	 */
 	public void loginToApplication(String emailAddress, String Password) {
@@ -142,6 +146,12 @@ public class LoginPage {
 		TestBase.extentTest.log(Status.INFO,message);
 	}
 	
+	public void logout(String username) {
+		signOut.click();
+		waitHelper.waitForElement(emailAddress, ObjectReader.reader.getExplicitWait());
+		log.info("Successfully Logout: "+username);
+		
+	}
 		
 
 }

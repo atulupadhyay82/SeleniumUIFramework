@@ -7,7 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.aventstack.extentreports.Status;
-import com.uiFramework.companyName.projectName.helper.browserConfig.config.ObjectReader;
+import com.uiFramework.companyName.projectName.helper.assertion.VerificationHelper;
+import com.uiFramework.companyName.projectName.helper.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
 import com.uiFramework.companyName.projectName.helper.testBase.TestBase;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
@@ -39,6 +40,8 @@ public class MyAccountPage {
 	public WebElement myAccountText;
 	
 	
+	
+	
 
 	public MyAccountPage(WebDriver driver) {
 		this.driver=driver;
@@ -64,6 +67,11 @@ public class MyAccountPage {
 		orderHistoryAndDetails.click();
 		log.info("clicked on "+orderHistoryAndDetails.getText());
 		TestBase.loggedInExtentReport("clicked on "+orderHistoryAndDetails.getText());
+	}
+
+	public boolean isYourAccountPageMessage() {
+		// TODO Auto-generated method stub
+		return new VerificationHelper(driver).isDisplayed(yourAccountMessage);
 	}
 	
 	

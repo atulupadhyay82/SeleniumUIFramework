@@ -180,3 +180,1069 @@
 2019-30-19 21:08:345 INFO  ExtentListener:38 - takeScreens Test started..
 2019-30-19 21:08:227 ERROR ExtentListener:53 - takeScreens Test failure..
 2019-30-19 21:08:266 INFO  ExtentListener:84 - TakeScreenshot Test finished..
+2019-37-20 22:08:693 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-37-20 22:08:706 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-37-20 22:08:722 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-37-20 22:08:733 INFO  WaitHelper:124 - page is loaded now
+2019-38-20 22:08:422 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (e476b9441b33a250740c6bef3522a504)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-38-20 22:08:529 INFO  WaitHelper:139 - element is visible now
+2019-38-20 22:08:529 INFO  TestBase:253 - capturing UI navigation screen..
+2019-38-20 22:08:530 INFO  TestBase:202 - driver is null
+2019-38-20 22:08:532 INFO  LoginPage:86 - clicking on sign in link..
+2019-38-20 22:08:733 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-38-20 22:08:917 INFO  LoginPage:96 - entering password..testing@1234
+2019-38-20 22:08:110 INFO  LoginPage:105 - clicking on submit button
+2019-38-20 22:08:111 INFO  WaitHelper:84 - scrolling donw vertically
+2019-38-20 22:08:176 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (e476b9441b33a250740c6bef3522a504)] -> xpath: //*[@id='center_column']/p]
+2019-42-20 22:08:117 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-42-20 22:08:122 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-42-20 22:08:131 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-42-20 22:08:134 INFO  WaitHelper:124 - page is loaded now
+2019-42-20 22:08:331 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (ffe2b08390fedeb065ac1fbbc0d75c05)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-42-20 22:08:436 INFO  WaitHelper:139 - element is visible now
+2019-42-20 22:08:438 INFO  TestBase:253 - capturing UI navigation screen..
+2019-42-20 22:08:438 INFO  TestBase:202 - driver is null
+2019-42-20 22:08:441 INFO  LoginPage:86 - clicking on sign in link..
+2019-42-20 22:08:668 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-42-20 22:08:866 INFO  LoginPage:96 - entering password..testing@1234
+2019-42-20 22:08:41 INFO  LoginPage:105 - clicking on submit button
+2019-42-20 22:08:43 INFO  WaitHelper:84 - scrolling donw vertically
+2019-42-20 22:08:970 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (ffe2b08390fedeb065ac1fbbc0d75c05)] -> xpath: //*[@id='center_column']/p]
+2019-34-20 23:08:104 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-34-20 23:08:109 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-34-20 23:08:118 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-34-20 23:08:124 INFO  WaitHelper:124 - page is loaded now
+2019-34-20 23:08:272 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c6c69a07ea0990afd0054b65dc07f952)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-34-20 23:08:382 INFO  WaitHelper:139 - element is visible now
+2019-34-20 23:08:383 INFO  TestBase:253 - capturing UI navigation screen..
+2019-34-20 23:08:384 INFO  TestBase:202 - driver is null
+2019-34-20 23:08:387 INFO  LoginPage:86 - clicking on sign in link..
+2019-35-20 23:08:660 INFO  LoginPage:121 - entering registration email: 1566324300660@gmail.com
+2019-35-20 23:08:667 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c6c69a07ea0990afd0054b65dc07f952)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-35-20 23:08:775 INFO  WaitHelper:139 - element is visible now
+2019-35-20 23:08:775 INFO  TestBase:253 - capturing UI navigation screen..
+2019-35-20 23:08:776 INFO  TestBase:202 - driver is null
+2019-35-20 23:08:822 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c6c69a07ea0990afd0054b65dc07f952)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-35-20 23:08:893 INFO  WaitHelper:139 - element is visible now
+2019-35-20 23:08:894 INFO  TestBase:253 - capturing UI navigation screen..
+2019-35-20 23:08:895 INFO  TestBase:202 - driver is null
+2019-35-20 23:08:895 INFO  RegistrationPage:99 - entering the firstname: firstName
+2019-35-20 23:08:126 INFO  RegistrationPage:124 - entering the address1: address1
+2019-35-20 23:08:405 INFO  RegistrationPage:130 - entering the address2: address2
+2019-35-20 23:08:560 INFO  RegistrationPage:166 - entering the aliasAddress: aliasAddress
+2019-35-20 23:08:774 INFO  RegistrationPage:136 - entering the city: city
+2019-36-20 23:08:506 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-36-20 23:08:512 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-36-20 23:08:521 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-36-20 23:08:524 INFO  WaitHelper:124 - page is loaded now
+2019-36-20 23:08:66 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b560ffe49a9907ba13c5aad73073d99f)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-36-20 23:08:167 INFO  WaitHelper:139 - element is visible now
+2019-36-20 23:08:167 INFO  TestBase:253 - capturing UI navigation screen..
+2019-36-20 23:08:168 INFO  TestBase:202 - driver is null
+2019-36-20 23:08:170 INFO  LoginPage:86 - clicking on sign in link..
+2019-36-20 23:08:419 INFO  LoginPage:121 - entering registration email: 1566324383419@gmail.com
+2019-36-20 23:08:367 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b560ffe49a9907ba13c5aad73073d99f)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-36-20 23:08:458 INFO  WaitHelper:139 - element is visible now
+2019-36-20 23:08:458 INFO  TestBase:253 - capturing UI navigation screen..
+2019-36-20 23:08:459 INFO  TestBase:202 - driver is null
+2019-36-20 23:08:484 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b560ffe49a9907ba13c5aad73073d99f)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-36-20 23:08:553 INFO  WaitHelper:139 - element is visible now
+2019-36-20 23:08:555 INFO  TestBase:253 - capturing UI navigation screen..
+2019-36-20 23:08:555 INFO  TestBase:202 - driver is null
+2019-36-20 23:08:556 INFO  RegistrationPage:99 - entering the firstname: firstName
+2019-36-20 23:08:873 INFO  RegistrationPage:124 - entering the address1: address1
+2019-36-20 23:08:125 INFO  RegistrationPage:130 - entering the address2: address2
+2019-36-20 23:08:298 INFO  RegistrationPage:166 - entering the aliasAddress: aliasAddress
+2019-36-20 23:08:541 INFO  RegistrationPage:136 - entering the city: city
+2019-20-21 00:08:712 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-20-21 00:08:719 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-20-21 00:08:725 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-20-21 00:08:729 INFO  WaitHelper:124 - page is loaded now
+2019-20-21 00:08:348 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c1e63850af6e180bb38c1f51b7ed3a97)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-20-21 00:08:426 INFO  WaitHelper:139 - element is visible now
+2019-20-21 00:08:426 INFO  TestBase:253 - capturing UI navigation screen..
+2019-20-21 00:08:426 INFO  TestBase:202 - driver is null
+2019-20-21 00:08:430 INFO  LoginPage:86 - clicking on sign in link..
+2019-20-21 00:08:702 INFO  LoginPage:121 - entering registration email: 1566327022702@gmail.com
+2019-20-21 00:08:531 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c1e63850af6e180bb38c1f51b7ed3a97)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-20-21 00:08:580 INFO  WaitHelper:139 - element is visible now
+2019-20-21 00:08:584 INFO  TestBase:253 - capturing UI navigation screen..
+2019-20-21 00:08:584 INFO  TestBase:202 - driver is null
+2019-20-21 00:08:604 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (c1e63850af6e180bb38c1f51b7ed3a97)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-20-21 00:08:644 INFO  WaitHelper:139 - element is visible now
+2019-20-21 00:08:648 INFO  TestBase:253 - capturing UI navigation screen..
+2019-20-21 00:08:648 INFO  TestBase:202 - driver is null
+2019-20-21 00:08:648 INFO  RegistrationPage:178 - selecting mr checkbox
+2019-20-21 00:08:788 INFO  RegistrationPage:99 - entering the firstname: firstName
+2019-20-21 00:08:348 INFO  RegistrationPage:106 - entering the lastName: lastName
+2019-20-21 00:08:572 INFO  RegistrationPage:118 - entering the password: password
+2019-22-21 00:08:345 INFO  TestBase:181 - Initialize web driver: 1948810915
+2019-22-21 00:08:349 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-22-21 00:08:360 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-22-21 00:08:364 INFO  WaitHelper:124 - page is loaded now
+2019-22-21 00:08:941 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b58da7d64d4f0103c93eb093ffdcd843)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-22-21 00:08:26 INFO  WaitHelper:139 - element is visible now
+2019-22-21 00:08:26 INFO  TestBase:253 - capturing UI navigation screen..
+2019-22-21 00:08:30 INFO  TestBase:202 - driver is null
+2019-22-21 00:08:30 INFO  LoginPage:86 - clicking on sign in link..
+2019-22-21 00:08:168 INFO  LoginPage:121 - entering registration email: 1566327155168@gmail.com
+2019-22-21 00:08:38 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b58da7d64d4f0103c93eb093ffdcd843)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-22-21 00:08:95 INFO  WaitHelper:139 - element is visible now
+2019-22-21 00:08:95 INFO  TestBase:253 - capturing UI navigation screen..
+2019-22-21 00:08:95 INFO  TestBase:202 - driver is null
+2019-22-21 00:08:115 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (b58da7d64d4f0103c93eb093ffdcd843)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-22-21 00:08:156 INFO  WaitHelper:139 - element is visible now
+2019-22-21 00:08:159 INFO  TestBase:253 - capturing UI navigation screen..
+2019-22-21 00:08:159 INFO  TestBase:202 - driver is null
+2019-22-21 00:08:160 INFO  RegistrationPage:179 - selecting mr checkbox
+2019-22-21 00:08:253 INFO  RegistrationPage:100 - entering the firstname: firstName
+2019-22-21 00:08:475 INFO  RegistrationPage:107 - entering the lastName: lastName
+2019-22-21 00:08:716 INFO  RegistrationPage:119 - entering the password: password
+2019-22-21 00:08:921 INFO  WaitHelper:69 - scroll to webelement: [[ChromeDriver: chrome on XP (b58da7d64d4f0103c93eb093ffdcd843)] -> xpath: //*[@id='days']]
+2019-26-21 00:08:121 INFO  TestBase:181 - Initialize web driver: 583015088
+2019-26-21 00:08:130 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-26-21 00:08:138 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-26-21 00:08:146 INFO  WaitHelper:124 - page is loaded now
+2019-26-21 00:08:306 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7eafada7bc39bfc89f7faab00968d1ea)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-26-21 00:08:412 INFO  WaitHelper:139 - element is visible now
+2019-26-21 00:08:412 INFO  TestBase:253 - capturing UI navigation screen..
+2019-26-21 00:08:412 INFO  TestBase:202 - driver is null
+2019-26-21 00:08:416 INFO  LoginPage:86 - clicking on sign in link..
+2019-26-21 00:08:701 INFO  LoginPage:121 - entering registration email: 1566327418701@gmail.com
+2019-27-21 00:08:589 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7eafada7bc39bfc89f7faab00968d1ea)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-27-21 00:08:656 INFO  WaitHelper:139 - element is visible now
+2019-27-21 00:08:656 INFO  TestBase:253 - capturing UI navigation screen..
+2019-27-21 00:08:660 INFO  TestBase:202 - driver is null
+2019-27-21 00:08:688 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7eafada7bc39bfc89f7faab00968d1ea)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-27-21 00:08:756 INFO  WaitHelper:139 - element is visible now
+2019-27-21 00:08:756 INFO  TestBase:253 - capturing UI navigation screen..
+2019-27-21 00:08:756 INFO  TestBase:202 - driver is null
+2019-27-21 00:08:756 INFO  RegistrationPage:179 - selecting mr checkbox
+2019-27-21 00:08:876 INFO  RegistrationPage:100 - entering the firstname: firstName
+2019-27-21 00:08:28 INFO  RegistrationPage:107 - entering the lastName: lastName
+2019-27-21 00:08:312 INFO  RegistrationPage:119 - entering the password: password
+2019-27-21 00:08:758 INFO  WaitHelper:69 - scroll to webelement: [[ChromeDriver: chrome on XP (7eafada7bc39bfc89f7faab00968d1ea)] -> xpath: //*[@id='days']]
+2019-28-21 00:08:361 INFO  TestBase:181 - Initialize web driver: 583015088
+2019-28-21 00:08:366 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-28-21 00:08:371 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-28-21 00:08:380 INFO  WaitHelper:124 - page is loaded now
+2019-29-21 00:08:63 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (60933a092f2b9e8e12050980ccd1771a)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-29-21 00:08:172 INFO  WaitHelper:139 - element is visible now
+2019-29-21 00:08:172 INFO  TestBase:253 - capturing UI navigation screen..
+2019-29-21 00:08:172 INFO  TestBase:202 - driver is null
+2019-29-21 00:08:176 INFO  LoginPage:86 - clicking on sign in link..
+2019-29-21 00:08:430 INFO  LoginPage:121 - entering registration email: 1566327543430@gmail.com
+2019-29-21 00:08:377 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (60933a092f2b9e8e12050980ccd1771a)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-29-21 00:08:439 INFO  WaitHelper:139 - element is visible now
+2019-29-21 00:08:439 INFO  TestBase:253 - capturing UI navigation screen..
+2019-29-21 00:08:439 INFO  TestBase:202 - driver is null
+2019-29-21 00:08:475 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (60933a092f2b9e8e12050980ccd1771a)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-29-21 00:08:547 INFO  WaitHelper:139 - element is visible now
+2019-29-21 00:08:547 INFO  TestBase:253 - capturing UI navigation screen..
+2019-29-21 00:08:551 INFO  TestBase:202 - driver is null
+2019-29-21 00:08:551 INFO  RegistrationPage:179 - selecting mr checkbox
+2019-29-21 00:08:647 INFO  RegistrationPage:100 - entering the firstname: firstName
+2019-29-21 00:08:835 INFO  RegistrationPage:107 - entering the lastName: lastName
+2019-29-21 00:08:63 INFO  RegistrationPage:119 - entering the password: password
+2019-39-21 06:08:100 INFO  TestBase:178 - Initialize web driver: 1948810915
+2019-39-21 06:08:104 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-39-21 06:08:112 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-39-21 06:08:117 INFO  WaitHelper:124 - page is loaded now
+2019-39-21 06:08:510 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (d117df3db900a022fb381a4ef4021290)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-39-21 06:08:603 INFO  WaitHelper:139 - element is visible now
+2019-39-21 06:08:603 INFO  TestBase:252 - capturing UI navigation screen..
+2019-39-21 06:08:586 INFO  TestBase:126 - ************testLoginToApplicationFinished**********
+2019-42-21 06:08:686 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-42-21 06:08:690 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-42-21 06:08:696 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-42-21 06:08:700 INFO  WaitHelper:124 - page is loaded now
+2019-42-21 06:08:868 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (5e81de01663bdabc1cdac8e95b95e3a9)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-42-21 06:08:940 INFO  WaitHelper:139 - element is visible now
+2019-42-21 06:08:941 INFO  TestBase:251 - capturing UI navigation screen..
+2019-42-21 06:08:840 INFO  TestBase:127 - ************testLoginToApplicationFinished**********
+2019-52-21 06:08:579 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-52-21 06:08:594 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-52-21 06:08:611 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-52-21 06:08:626 INFO  WaitHelper:124 - page is loaded now
+2019-52-21 06:08:901 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (6ffd4ee68fa1c9228eb02ec219558814)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-52-21 06:08:994 INFO  WaitHelper:139 - element is visible now
+2019-52-21 06:08:994 INFO  TestBase:251 - capturing UI navigation screen..
+2019-52-21 06:08:994 INFO  WaitHelper:25 - JavaScriptHelper has been initialised
+2019-52-21 06:08:994 INFO  WaitHelper:128 - zooming in by60 percent
+2019-52-21 06:08:994 INFO  WaitHelper:32 - executing the script
+2019-52-21 06:08:83 INFO  TestBase:199 - driver is null
+2019-52-21 06:08:83 INFO  WaitHelper:25 - JavaScriptHelper has been initialised
+2019-52-21 06:08:84 INFO  WaitHelper:120 - zooming in by100 percent
+2019-52-21 06:08:84 INFO  WaitHelper:32 - executing the script
+2019-52-21 06:08:106 INFO  LoginPage:86 - clicking on sign in link..
+2019-52-21 06:08:696 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-52-21 06:08:907 INFO  LoginPage:96 - entering password..testing@1234
+2019-52-21 06:08:79 INFO  LoginPage:105 - clicking on submit button
+2019-52-21 06:08:80 INFO  WaitHelper:25 - JavaScriptHelper has been initialised
+2019-52-21 06:08:80 INFO  WaitHelper:87 - scrolling donw vertically
+2019-52-21 06:08:80 INFO  WaitHelper:32 - executing the script
+2019-52-21 06:08:778 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (6ffd4ee68fa1c9228eb02ec219558814)] -> xpath: //*[@id='center_column']/p]
+2019-52-21 06:08:346 INFO  TestBase:127 - ************testLoginToApplicationFinished**********
+2019-55-21 06:08:621 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-55-21 06:08:636 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-55-21 06:08:645 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-55-21 06:08:661 INFO  WaitHelper:124 - page is loaded now
+2019-55-21 06:08:62 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (ec7ae68bd7a2f7b6cf0581c308b61bf2)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-55-21 06:08:134 INFO  WaitHelper:139 - element is visible now
+2019-55-21 06:08:135 INFO  TestBase:251 - capturing UI navigation screen..
+2019-55-21 06:08:136 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 06:08:136 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-55-21 06:08:137 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 06:08:198 INFO  TestBase:199 - driver is null
+2019-55-21 06:08:199 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 06:08:200 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-55-21 06:08:201 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 06:08:223 INFO  LoginPage:86 - clicking on sign in link..
+2019-55-21 06:08:359 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-55-21 06:08:517 INFO  LoginPage:96 - entering password..testing@1234
+2019-55-21 06:08:670 INFO  LoginPage:105 - clicking on submit button
+2019-55-21 06:08:670 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 06:08:670 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-55-21 06:08:671 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 06:08:524 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (ec7ae68bd7a2f7b6cf0581c308b61bf2)] -> xpath: //*[@id='center_column']/p]
+2019-55-21 06:08:66 INFO  TestBase:127 - ************testLoginToApplicationFinished**********
+2019-20-21 07:08:433 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-20-21 07:08:439 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-20-21 07:08:447 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-20-21 07:08:452 INFO  WaitHelper:124 - page is loaded now
+2019-22-21 07:08:389 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-22-21 07:08:393 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-22-21 07:08:399 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-22-21 07:08:402 INFO  WaitHelper:124 - page is loaded now
+2019-22-21 07:08:913 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (061cabf810963d773490558acc625f69)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-22-21 07:08:988 INFO  WaitHelper:139 - element is visible now
+2019-22-21 07:08:989 INFO  TestBase:251 - capturing UI navigation screen..
+2019-22-21 07:08:990 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-22-21 07:08:991 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-22-21 07:08:991 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 07:08:78 INFO  TestBase:199 - driver is null
+2019-23-21 07:08:79 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 07:08:80 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-23-21 07:08:81 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 07:08:166 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-23-21 07:08:884 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (061cabf810963d773490558acc625f69)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-23-21 07:08:920 INFO  WaitHelper:139 - element is visible now
+2019-23-21 07:08:920 INFO  TestBase:251 - capturing UI navigation screen..
+2019-23-21 07:08:920 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 07:08:921 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-23-21 07:08:921 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 07:08:968 INFO  TestBase:199 - driver is null
+2019-23-21 07:08:968 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 07:08:968 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-23-21 07:08:969 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 07:08:27 INFO  DropdownHelper:32 - DropdownHelper object is created..
+2019-25-21 07:08:680 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-25-21 07:08:596 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-25-21 07:08:603 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-25-21 07:08:610 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-25-21 07:08:615 INFO  WaitHelper:124 - page is loaded now
+2019-26-21 07:08:811 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (db2bc46adef94d51c07cd32c5ebf5b4c)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-26-21 07:08:901 INFO  WaitHelper:139 - element is visible now
+2019-26-21 07:08:902 INFO  TestBase:251 - capturing UI navigation screen..
+2019-26-21 07:08:904 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 07:08:904 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-26-21 07:08:905 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 07:08:988 INFO  TestBase:199 - driver is null
+2019-26-21 07:08:989 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 07:08:989 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-26-21 07:08:989 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 07:08:73 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-26-21 07:08:11 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (db2bc46adef94d51c07cd32c5ebf5b4c)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-26-21 07:08:47 INFO  WaitHelper:139 - element is visible now
+2019-26-21 07:08:47 INFO  TestBase:251 - capturing UI navigation screen..
+2019-26-21 07:08:48 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 07:08:48 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-26-21 07:08:48 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 07:08:97 INFO  TestBase:199 - driver is null
+2019-26-21 07:08:97 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 07:08:98 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-26-21 07:08:98 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 07:08:155 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 07:08:180 INFO  JavaScriptHelper:72 - scroll to webelement: [[ChromeDriver: chrome on XP (db2bc46adef94d51c07cd32c5ebf5b4c)] -> xpath: //*[@id='selectProductSort']]
+2019-26-21 07:08:180 INFO  JavaScriptHelper:42 - executing the script with mutliple arguments
+2019-26-21 07:08:840 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-28-21 07:08:593 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-28-21 07:08:597 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-28-21 07:08:605 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-28-21 07:08:610 INFO  WaitHelper:124 - page is loaded now
+2019-28-21 07:08:761 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (834b2f91f081f4c8448097ec2ff1b35b)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-28-21 07:08:861 INFO  WaitHelper:139 - element is visible now
+2019-28-21 07:08:861 INFO  TestBase:251 - capturing UI navigation screen..
+2019-28-21 07:08:863 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 07:08:863 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-28-21 07:08:863 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 07:08:950 INFO  TestBase:199 - driver is null
+2019-28-21 07:08:951 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 07:08:951 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-28-21 07:08:952 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 07:08:65 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-28-21 07:08:816 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (834b2f91f081f4c8448097ec2ff1b35b)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-28-21 07:08:855 INFO  WaitHelper:139 - element is visible now
+2019-28-21 07:08:855 INFO  TestBase:251 - capturing UI navigation screen..
+2019-28-21 07:08:856 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 07:08:856 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-28-21 07:08:856 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 07:08:918 INFO  TestBase:199 - driver is null
+2019-28-21 07:08:919 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 07:08:919 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-28-21 07:08:919 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 07:08:939 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 07:08:17 INFO  JavaScriptHelper:72 - scroll to webelement: [[ChromeDriver: chrome on XP (834b2f91f081f4c8448097ec2ff1b35b)] -> xpath: //*[@id='selectProductSort']]
+2019-28-21 07:08:17 INFO  JavaScriptHelper:42 - executing the script with mutliple arguments
+2019-28-21 07:08:616 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-55-21 07:08:733 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-55-21 07:08:749 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-55-21 07:08:759 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-55-21 07:08:763 INFO  WaitHelper:124 - page is loaded now
+2019-55-21 07:08:106 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (9e62a2b5ae4b1316f21ca6ad0176777b)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-55-21 07:08:215 INFO  WaitHelper:139 - element is visible now
+2019-55-21 07:08:216 INFO  TestBase:251 - capturing UI navigation screen..
+2019-55-21 07:08:218 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 07:08:218 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-55-21 07:08:219 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 07:08:327 INFO  TestBase:199 - driver is null
+2019-55-21 07:08:327 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 07:08:327 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-55-21 07:08:328 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 07:08:432 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-55-21 07:08:183 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (9e62a2b5ae4b1316f21ca6ad0176777b)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-55-21 07:08:220 INFO  WaitHelper:139 - element is visible now
+2019-55-21 07:08:221 INFO  TestBase:251 - capturing UI navigation screen..
+2019-55-21 07:08:222 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 07:08:222 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-55-21 07:08:222 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 07:08:275 INFO  TestBase:199 - driver is null
+2019-55-21 07:08:275 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-55-21 07:08:275 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-55-21 07:08:276 INFO  JavaScriptHelper:32 - executing the script
+2019-55-21 07:08:292 INFO  DropdownHelper:32 - DropdownHelper object is created..
+2019-57-21 07:08:499 INFO  TestBase:180 - Initialize web driver: 1948810915
+2019-57-21 07:08:513 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-57-21 07:08:530 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-57-21 07:08:545 INFO  WaitHelper:124 - page is loaded now
+2019-57-21 07:08:420 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (1bd0260f501ef2eaf329f7d6aebd9d52)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-57-21 07:08:506 INFO  WaitHelper:139 - element is visible now
+2019-57-21 07:08:506 INFO  TestBase:251 - capturing UI navigation screen..
+2019-57-21 07:08:507 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 07:08:507 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-57-21 07:08:508 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 07:08:569 INFO  TestBase:199 - driver is null
+2019-57-21 07:08:570 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 07:08:570 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-57-21 07:08:570 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 07:08:691 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-57-21 07:08:410 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (1bd0260f501ef2eaf329f7d6aebd9d52)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-57-21 07:08:451 INFO  WaitHelper:139 - element is visible now
+2019-57-21 07:08:452 INFO  TestBase:251 - capturing UI navigation screen..
+2019-57-21 07:08:452 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 07:08:452 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-57-21 07:08:453 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 07:08:519 INFO  TestBase:199 - driver is null
+2019-57-21 07:08:519 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 07:08:520 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-57-21 07:08:520 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 07:08:533 INFO  DropdownHelper:32 - DropdownHelper object is created..
+2019-57-21 07:08:744 INFO  DropdownHelper:52 - selectUsingVisibleText and visible text is: Price: Lowest first
+2019-57-21 07:08:775 INFO  ProductCategoryPage:219 - 16.51
+2019-57-21 07:08:791 INFO  ProductCategoryPage:219 - 27.00
+2019-57-21 07:08:807 INFO  ProductCategoryPage:219 - 26.00
+2019-57-21 07:08:824 INFO  ProductCategoryPage:219 - 50.99
+2019-57-21 07:08:840 INFO  ProductCategoryPage:219 - 28.98
+2019-57-21 07:08:861 INFO  ProductCategoryPage:219 - 30.50
+2019-57-21 07:08:876 INFO  ProductCategoryPage:219 - 16.40
+2019-57-21 07:08:876 INFO  ProductCategoryPage:234 - [16, 27, 26, 50, 28, 30, 16]
+2019-57-21 07:08:877 INFO  ProductCategoryPage:239 - obj.get(i): 16
+2019-57-21 07:08:877 INFO  ProductCategoryPage:240 - obj.get(i+1): 27
+2019-57-21 07:08:878 INFO  AssertionHelper:49 - making script fail..
+2019-57-21 07:08:430 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-06-21 08:08:445 INFO  TestBase:180 - Initialize web driver: 746074699
+2019-06-21 08:08:451 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-06-21 08:08:458 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-06-21 08:08:462 INFO  WaitHelper:124 - page is loaded now
+2019-06-21 08:08:263 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (02e6d3d81f77a917b2d4f6660678d2e8)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-06-21 08:08:423 INFO  WaitHelper:139 - element is visible now
+2019-06-21 08:08:424 INFO  TestBase:251 - capturing UI navigation screen..
+2019-06-21 08:08:425 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 08:08:425 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-06-21 08:08:426 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 08:08:553 INFO  TestBase:199 - driver is null
+2019-06-21 08:08:554 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 08:08:554 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-06-21 08:08:555 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 08:08:577 INFO  LoginPage:86 - clicking on sign in link..
+2019-06-21 08:08:190 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-06-21 08:08:385 INFO  LoginPage:96 - entering password..testing@1234
+2019-06-21 08:08:577 INFO  LoginPage:105 - clicking on submit button
+2019-06-21 08:08:579 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 08:08:580 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-06-21 08:08:581 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 08:08:387 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (02e6d3d81f77a917b2d4f6660678d2e8)] -> xpath: //*[@id='center_column']/p]
+2019-06-21 08:08:966 INFO  TestBase:127 - ************testLoginToApplicationFinished**********
+2019-06-21 08:08:308 INFO  TestBase:180 - Initialize web driver: 864138492
+2019-06-21 08:08:309 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-06-21 08:08:313 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-06-21 08:08:316 INFO  WaitHelper:124 - page is loaded now
+2019-07-21 08:08:489 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7c636916f4ae96f62ccd049c0012c769)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-07-21 08:08:532 INFO  WaitHelper:139 - element is visible now
+2019-07-21 08:08:532 INFO  TestBase:251 - capturing UI navigation screen..
+2019-07-21 08:08:533 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:533 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 08:08:533 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:632 INFO  TestBase:199 - driver is null
+2019-07-21 08:08:632 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:632 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 08:08:632 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:647 INFO  LoginPage:86 - clicking on sign in link..
+2019-07-21 08:08:927 INFO  LoginPage:121 - entering registration email: 1566355025927@gmail.com
+2019-07-21 08:08:944 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7c636916f4ae96f62ccd049c0012c769)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-07-21 08:08:00 INFO  WaitHelper:139 - element is visible now
+2019-07-21 08:08:00 INFO  TestBase:251 - capturing UI navigation screen..
+2019-07-21 08:08:00 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:00 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 08:08:01 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:15 INFO  TestBase:199 - driver is null
+2019-07-21 08:08:15 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:15 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 08:08:15 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:48 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7c636916f4ae96f62ccd049c0012c769)] -> xpath: //*[@id='id_gender1']] for :200 seconds
+2019-07-21 08:08:101 INFO  WaitHelper:139 - element is visible now
+2019-07-21 08:08:101 INFO  TestBase:251 - capturing UI navigation screen..
+2019-07-21 08:08:101 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:101 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 08:08:102 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:116 INFO  TestBase:199 - driver is null
+2019-07-21 08:08:116 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:116 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 08:08:116 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:294 INFO  RegistrationPage:179 - selecting mr checkbox
+2019-07-21 08:08:626 INFO  RegistrationPage:100 - entering the firstname: firstName
+2019-07-21 08:08:937 INFO  RegistrationPage:107 - entering the lastName: lastName
+2019-07-21 08:08:101 INFO  RegistrationPage:119 - entering the password: password
+2019-07-21 08:08:686 INFO  TestBase:127 - ************testToRegisterNewUserFinished**********
+2019-07-21 08:08:803 INFO  TestBase:180 - Initialize web driver: 421191743
+2019-07-21 08:08:804 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-07-21 08:08:808 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-07-21 08:08:811 INFO  WaitHelper:124 - page is loaded now
+2019-07-21 08:08:329 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (f4bb119f2e7d4a74fee667b098b2b30d)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2019-07-21 08:08:371 INFO  WaitHelper:139 - element is visible now
+2019-07-21 08:08:372 INFO  TestBase:251 - capturing UI navigation screen..
+2019-07-21 08:08:372 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:372 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 08:08:373 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:466 INFO  TestBase:199 - driver is null
+2019-07-21 08:08:466 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:467 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 08:08:467 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:553 INFO  NavigationMenu:80 - clicking on :WOMEN
+2019-07-21 08:08:365 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (f4bb119f2e7d4a74fee667b098b2b30d)] -> xpath: //*[@id='layered_block_left']/p] for :200 seconds
+2019-07-21 08:08:393 INFO  WaitHelper:139 - element is visible now
+2019-07-21 08:08:394 INFO  TestBase:251 - capturing UI navigation screen..
+2019-07-21 08:08:394 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:394 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 08:08:394 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:441 INFO  TestBase:199 - driver is null
+2019-07-21 08:08:441 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 08:08:441 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 08:08:442 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 08:08:499 INFO  DropdownHelper:32 - DropdownHelper object is created..
+2019-07-21 08:08:640 INFO  DropdownHelper:52 - selectUsingVisibleText and visible text is: Price: Lowest first
+2019-07-21 08:08:676 INFO  ProductCategoryPage:219 - 16.51
+2019-07-21 08:08:693 INFO  ProductCategoryPage:219 - 27.00
+2019-07-21 08:08:710 INFO  ProductCategoryPage:219 - 26.00
+2019-07-21 08:08:726 INFO  ProductCategoryPage:219 - 50.99
+2019-07-21 08:08:744 INFO  ProductCategoryPage:219 - 28.98
+2019-07-21 08:08:763 INFO  ProductCategoryPage:219 - 30.50
+2019-07-21 08:08:782 INFO  ProductCategoryPage:219 - 16.40
+2019-07-21 08:08:782 INFO  ProductCategoryPage:234 - [16, 27, 26, 50, 28, 30, 16]
+2019-07-21 08:08:782 INFO  ProductCategoryPage:239 - obj.get(i): 16
+2019-07-21 08:08:783 INFO  ProductCategoryPage:240 - obj.get(i+1): 27
+2019-07-21 08:08:783 INFO  AssertionHelper:49 - making script fail..
+2019-07-21 08:08:235 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-20-21 09:08:338 INFO  TestBase:180 - Initialize web driver: 1515877023
+2019-20-21 09:08:344 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-20-21 09:08:354 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-20-21 09:08:361 INFO  WaitHelper:124 - page is loaded now
+2019-20-21 09:08:995 INFO  TestBase:127 - ************testLoginToApplicationFinished**********
+2019-20-21 09:08:758 INFO  TestBase:180 - Initialize web driver: 90346768
+2019-20-21 09:08:758 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-20-21 09:08:765 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-20-21 09:08:772 INFO  WaitHelper:124 - page is loaded now
+2019-20-21 09:08:280 INFO  TestBase:127 - ************testToRegisterNewUserFinished**********
+2019-20-21 09:08:247 INFO  TestBase:180 - Initialize web driver: 1112456099
+2019-20-21 09:08:247 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-20-21 09:08:253 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-20-21 09:08:259 INFO  WaitHelper:124 - page is loaded now
+2019-20-21 09:08:777 INFO  TestBase:127 - ************verifyLowestFirstPriceInProductListFinished**********
+2019-28-21 09:08:188 INFO  TestBase:180 - Initialize web driver: 746074699
+2019-28-21 09:08:191 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-28-21 09:08:201 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-28-21 09:08:208 INFO  WaitHelper:124 - page is loaded now
+2019-19-21 12:08:431 INFO  ExceLHelper:139 - no matching data type found
+2019-19-21 12:08:435 INFO  ExceLHelper:139 - no matching data type found
+2019-19-21 12:08:437 INFO  ExceLHelper:139 - no matching data type found
+2019-20-21 12:08:38 INFO  ExceLHelper:139 - no matching data type found
+2019-20-21 12:08:42 INFO  ExceLHelper:139 - no matching data type found
+2019-20-21 12:08:44 INFO  ExceLHelper:139 - no matching data type found
+2019-21-21 12:08:464 INFO  ExceLHelper:139 - no matching data type found
+2019-21-21 12:08:468 INFO  ExceLHelper:155 - exception occured: null
+2019-36-21 12:08:29 INFO  ExceLHelper:111 - store String  TestName in :00
+2019-36-21 12:08:32 INFO  ExceLHelper:111 - store String  Test Step in :01
+2019-36-21 12:08:33 INFO  ExceLHelper:111 - store String  Test Comments in :02
+2019-36-21 12:08:33 INFO  ExceLHelper:111 - store String  Result in :03
+2019-36-21 12:08:34 INFO  ExceLHelper:111 - store String  Count in :04
+2019-36-21 12:08:34 INFO  ExceLHelper:111 - store String  login in :10
+2019-36-21 12:08:35 INFO  ExceLHelper:111 - store String  login step in :11
+2019-36-21 12:08:35 INFO  ExceLHelper:111 - store String  login comments in :12
+2019-36-21 12:08:35 INFO  ExceLHelper:131 - store boolean  true in :13
+2019-36-21 12:08:36 INFO  ExceLHelper:121 - store numeric  4.0 in :14
+2019-36-21 12:08:36 INFO  ExceLHelper:111 - store String  login in :20
+2019-36-21 12:08:37 INFO  ExceLHelper:111 - store String  login step in :21
+2019-36-21 12:08:43 INFO  ExceLHelper:111 - store String  login comments in :22
+2019-36-21 12:08:43 INFO  ExceLHelper:131 - store boolean  true in :23
+2019-36-21 12:08:43 INFO  ExceLHelper:121 - store numeric  5.0 in :24
+2019-36-21 12:08:44 INFO  ExceLHelper:111 - store String  login in :30
+2019-36-21 12:08:46 INFO  ExceLHelper:111 - store String  login step in :31
+2019-36-21 12:08:47 INFO  ExceLHelper:111 - store String  login comments in :32
+2019-36-21 12:08:47 INFO  ExceLHelper:131 - store boolean  false in :33
+2019-36-21 12:08:47 INFO  ExceLHelper:121 - store numeric  6.0 in :34
+2019-36-21 12:08:47 INFO  ExceLHelper:111 - store String  login in :40
+2019-36-21 12:08:48 INFO  ExceLHelper:111 - store String  login step in :41
+2019-36-21 12:08:48 INFO  ExceLHelper:111 - store String  login comments in :42
+2019-36-21 12:08:49 INFO  ExceLHelper:131 - store boolean  true in :43
+2019-36-21 12:08:49 INFO  ExceLHelper:121 - store numeric  7.0 in :44
+2019-36-21 12:08:49 INFO  ExceLHelper:111 - store String  login in :50
+2019-36-21 12:08:50 INFO  ExceLHelper:111 - store String  login step in :51
+2019-36-21 12:08:50 INFO  ExceLHelper:111 - store String  login comments in :52
+2019-36-21 12:08:50 INFO  ExceLHelper:131 - store boolean  true in :53
+2019-36-21 12:08:51 INFO  ExceLHelper:121 - store numeric  8.0 in :54
+2019-36-21 12:08:51 INFO  ExceLHelper:111 - store String  login in :60
+2019-36-21 12:08:51 INFO  ExceLHelper:111 - store String  login step in :61
+2019-36-21 12:08:52 INFO  ExceLHelper:111 - store String  login comments in :62
+2019-36-21 12:08:52 INFO  ExceLHelper:131 - store boolean  true in :63
+2019-36-21 12:08:52 INFO  ExceLHelper:121 - store numeric  9.0 in :64
+2019-36-21 12:08:53 INFO  ExceLHelper:111 - store String  login in :70
+2019-36-21 12:08:53 INFO  ExceLHelper:111 - store String  login step in :71
+2019-36-21 12:08:53 INFO  ExceLHelper:111 - store String  login comments in :72
+2019-36-21 12:08:53 INFO  ExceLHelper:131 - store boolean  true in :73
+2019-36-21 12:08:54 INFO  ExceLHelper:121 - store numeric  10.0 in :74
+2019-39-21 12:08:494 INFO  ExceLHelper:143 - no matching data type found
+2019-39-21 12:08:497 INFO  ExceLHelper:111 - store String  1529830551216@gmail.com in :11
+2019-39-21 12:08:497 INFO  ExceLHelper:111 - store String  password in :12
+2019-39-21 12:08:497 INFO  ExceLHelper:111 - store String  Y in :13
+2019-39-21 12:08:498 INFO  ExceLHelper:143 - no matching data type found
+2019-39-21 12:08:498 INFO  ExceLHelper:111 - store String  1529830551217@gmail.com in :21
+2019-39-21 12:08:499 INFO  ExceLHelper:111 - store String  password in :22
+2019-39-21 12:08:499 INFO  ExceLHelper:111 - store String  Y in :23
+2019-39-21 12:08:500 INFO  ExceLHelper:143 - no matching data type found
+2019-39-21 12:08:500 INFO  ExceLHelper:111 - store String  1529830551218@gmail.com in :31
+2019-39-21 12:08:500 INFO  ExceLHelper:111 - store String  password in :32
+2019-39-21 12:08:501 INFO  ExceLHelper:111 - store String  N in :33
+2019-41-21 12:08:998 INFO  ExceLHelper:144 - no matching data type found
+2019-41-21 12:08:01 INFO  ExceLHelper:112 - store String  1529830551216@gmail.com in :11
+2019-41-21 12:08:01 INFO  ExceLHelper:112 - store String  password in :12
+2019-41-21 12:08:02 INFO  ExceLHelper:112 - store String  Y in :13
+2019-41-21 12:08:02 INFO  ExceLHelper:144 - no matching data type found
+2019-41-21 12:08:02 INFO  ExceLHelper:112 - store String  1529830551217@gmail.com in :21
+2019-41-21 12:08:04 INFO  ExceLHelper:112 - store String  password in :22
+2019-41-21 12:08:05 INFO  ExceLHelper:112 - store String  Y in :23
+2019-41-21 12:08:05 INFO  ExceLHelper:144 - no matching data type found
+2019-41-21 12:08:06 INFO  ExceLHelper:112 - store String  1529830551218@gmail.com in :31
+2019-41-21 12:08:06 INFO  ExceLHelper:112 - store String  password in :32
+2019-41-21 12:08:06 INFO  ExceLHelper:112 - store String  N in :33
+2019-43-21 12:08:613 INFO  ExceLHelper:96 - skipped
+2019-43-21 12:08:617 INFO  ExceLHelper:145 - no matching data type found
+2019-43-21 12:08:617 INFO  ExceLHelper:113 - store String  1529830551216@gmail.com in :11
+2019-43-21 12:08:617 INFO  ExceLHelper:113 - store String  password in :12
+2019-43-21 12:08:618 INFO  ExceLHelper:113 - store String  Y in :13
+2019-43-21 12:08:618 INFO  ExceLHelper:145 - no matching data type found
+2019-43-21 12:08:619 INFO  ExceLHelper:113 - store String  1529830551217@gmail.com in :21
+2019-43-21 12:08:620 INFO  ExceLHelper:113 - store String  password in :22
+2019-43-21 12:08:620 INFO  ExceLHelper:113 - store String  Y in :23
+2019-43-21 12:08:620 INFO  ExceLHelper:145 - no matching data type found
+2019-43-21 12:08:620 INFO  ExceLHelper:113 - store String  1529830551218@gmail.com in :31
+2019-43-21 12:08:621 INFO  ExceLHelper:113 - store String  password in :32
+2019-43-21 12:08:627 INFO  ExceLHelper:113 - store String  N in :33
+2019-44-21 12:08:180 INFO  ExceLHelper:97 - skipped
+2019-44-21 12:08:183 INFO  ExceLHelper:146 - no matching data type found
+2019-44-21 12:08:184 INFO  ExceLHelper:114 - store String  1529830551216@gmail.com in :11
+2019-44-21 12:08:184 INFO  ExceLHelper:114 - store String  password in :12
+2019-44-21 12:08:184 INFO  ExceLHelper:114 - store String  Y in :13
+2019-44-21 12:08:185 INFO  ExceLHelper:146 - no matching data type found
+2019-44-21 12:08:186 INFO  ExceLHelper:114 - store String  1529830551217@gmail.com in :21
+2019-44-21 12:08:187 INFO  ExceLHelper:114 - store String  password in :22
+2019-44-21 12:08:187 INFO  ExceLHelper:114 - store String  Y in :23
+2019-44-21 12:08:187 INFO  ExceLHelper:146 - no matching data type found
+2019-44-21 12:08:188 INFO  ExceLHelper:114 - store String  1529830551218@gmail.com in :31
+2019-44-21 12:08:188 INFO  ExceLHelper:114 - store String  password in :32
+2019-44-21 12:08:189 INFO  ExceLHelper:114 - store String  N in :33
+2019-45-21 12:08:986 INFO  ExceLHelper:97 - skipped
+2019-45-21 12:08:989 INFO  ExceLHelper:146 - no matching data type found
+2019-45-21 12:08:990 INFO  ExceLHelper:114 - store String  1529830551216@gmail.com in :11
+2019-45-21 12:08:991 INFO  ExceLHelper:114 - store String  password in :12
+2019-45-21 12:08:991 INFO  ExceLHelper:114 - store String  Y in :13
+2019-45-21 12:08:992 INFO  ExceLHelper:146 - no matching data type found
+2019-45-21 12:08:992 INFO  ExceLHelper:114 - store String  1529830551217@gmail.com in :21
+2019-45-21 12:08:993 INFO  ExceLHelper:114 - store String  password in :22
+2019-45-21 12:08:993 INFO  ExceLHelper:114 - store String  Y in :23
+2019-45-21 12:08:994 INFO  ExceLHelper:146 - no matching data type found
+2019-45-21 12:08:994 INFO  ExceLHelper:114 - store String  1529830551218@gmail.com in :31
+2019-45-21 12:08:994 INFO  ExceLHelper:114 - store String  password in :32
+2019-45-21 12:08:00 INFO  ExceLHelper:114 - store String  N in :33
+2019-38-21 14:08:639 INFO  ExceLHelper:98 - skipped
+2019-38-21 14:08:645 INFO  ExceLHelper:147 - no matching data type found
+2019-38-21 14:08:645 INFO  ExceLHelper:115 - store String  null in :20
+2019-38-21 14:08:646 INFO  ExceLHelper:115 - store String  null in :30
+2019-38-21 14:08:646 INFO  ExceLHelper:160 - exception occured: null
+2019-39-21 14:08:170 INFO  ExceLHelper:98 - skipped
+2019-39-21 14:08:176 INFO  ExceLHelper:147 - no matching data type found
+2019-39-21 14:08:177 INFO  ExceLHelper:115 - store String  null in :11
+2019-39-21 14:08:177 INFO  ExceLHelper:115 - store String  null in :12
+2019-39-21 14:08:179 INFO  ExceLHelper:115 - store String  null in :13
+2019-39-21 14:08:181 INFO  ExceLHelper:147 - no matching data type found
+2019-39-21 14:08:183 INFO  ExceLHelper:115 - store String  null in :21
+2019-39-21 14:08:184 INFO  ExceLHelper:115 - store String  null in :22
+2019-39-21 14:08:185 INFO  ExceLHelper:115 - store String  null in :23
+2019-39-21 14:08:185 INFO  ExceLHelper:147 - no matching data type found
+2019-39-21 14:08:186 INFO  ExceLHelper:115 - store String  null in :31
+2019-39-21 14:08:186 INFO  ExceLHelper:115 - store String  null in :32
+2019-39-21 14:08:186 INFO  ExceLHelper:115 - store String  null in :33
+2019-40-21 14:08:895 INFO  ExceLHelper:98 - skipped
+2019-40-21 14:08:899 INFO  ExceLHelper:147 - no matching data type found
+2019-40-21 14:08:900 INFO  ExceLHelper:115 - store String  null in :11
+2019-40-21 14:08:900 INFO  ExceLHelper:115 - store String  null in :12
+2019-40-21 14:08:900 INFO  ExceLHelper:115 - store String  null in :13
+2019-40-21 14:08:901 INFO  ExceLHelper:147 - no matching data type found
+2019-40-21 14:08:902 INFO  ExceLHelper:115 - store String  null in :21
+2019-40-21 14:08:903 INFO  ExceLHelper:115 - store String  null in :22
+2019-40-21 14:08:903 INFO  ExceLHelper:115 - store String  null in :23
+2019-40-21 14:08:903 INFO  ExceLHelper:147 - no matching data type found
+2019-40-21 14:08:904 INFO  ExceLHelper:115 - store String  null in :31
+2019-40-21 14:08:904 INFO  ExceLHelper:115 - store String  null in :32
+2019-40-21 14:08:910 INFO  ExceLHelper:115 - store String  null in :33
+2019-42-21 14:08:971 INFO  ExceLHelper:98 - skipped
+2019-42-21 14:08:975 INFO  ExceLHelper:147 - no matching data type found
+2019-42-21 14:08:975 INFO  ExceLHelper:115 - store String  null in :11
+2019-42-21 14:08:976 INFO  ExceLHelper:115 - store String  null in :12
+2019-42-21 14:08:976 INFO  ExceLHelper:115 - store String  null in :13
+2019-42-21 14:08:977 INFO  ExceLHelper:147 - no matching data type found
+2019-42-21 14:08:978 INFO  ExceLHelper:115 - store String  null in :21
+2019-42-21 14:08:978 INFO  ExceLHelper:115 - store String  null in :22
+2019-42-21 14:08:979 INFO  ExceLHelper:115 - store String  null in :23
+2019-42-21 14:08:979 INFO  ExceLHelper:147 - no matching data type found
+2019-42-21 14:08:979 INFO  ExceLHelper:115 - store String  null in :31
+2019-42-21 14:08:980 INFO  ExceLHelper:115 - store String  null in :32
+2019-42-21 14:08:980 INFO  ExceLHelper:115 - store String  null in :33
+2019-43-21 14:08:870 INFO  ExceLHelper:98 - skipped
+2019-43-21 14:08:873 INFO  ExceLHelper:147 - no matching data type found
+2019-43-21 14:08:873 INFO  ExceLHelper:115 - store String  null in :11
+2019-43-21 14:08:874 INFO  ExceLHelper:115 - store String  null in :12
+2019-43-21 14:08:874 INFO  ExceLHelper:115 - store String  null in :13
+2019-43-21 14:08:875 INFO  ExceLHelper:147 - no matching data type found
+2019-43-21 14:08:876 INFO  ExceLHelper:115 - store String  null in :21
+2019-43-21 14:08:877 INFO  ExceLHelper:115 - store String  null in :22
+2019-43-21 14:08:877 INFO  ExceLHelper:115 - store String  null in :23
+2019-43-21 14:08:878 INFO  ExceLHelper:147 - no matching data type found
+2019-43-21 14:08:878 INFO  ExceLHelper:160 - exception occured: null
+2019-45-21 14:08:375 INFO  ExceLHelper:98 - skipped
+2019-45-21 14:08:378 INFO  ExceLHelper:147 - no matching data type found
+2019-45-21 14:08:379 INFO  ExceLHelper:115 - store String  null in :11
+2019-45-21 14:08:379 INFO  ExceLHelper:115 - store String  null in :12
+2019-45-21 14:08:380 INFO  ExceLHelper:115 - store String  null in :13
+2019-45-21 14:08:380 INFO  ExceLHelper:147 - no matching data type found
+2019-45-21 14:08:381 INFO  ExceLHelper:115 - store String  null in :21
+2019-45-21 14:08:382 INFO  ExceLHelper:115 - store String  null in :22
+2019-45-21 14:08:382 INFO  ExceLHelper:115 - store String  null in :23
+2019-45-21 14:08:383 INFO  ExceLHelper:147 - no matching data type found
+2019-45-21 14:08:383 INFO  ExceLHelper:115 - store String  null in :31
+2019-45-21 14:08:383 INFO  ExceLHelper:115 - store String  null in :32
+2019-45-21 14:08:389 INFO  ExceLHelper:115 - store String  null in :33
+2019-46-21 14:08:346 INFO  ExceLHelper:98 - skipped
+2019-46-21 14:08:350 INFO  ExceLHelper:147 - no matching data type found
+2019-46-21 14:08:351 INFO  ExceLHelper:115 - store String  null in :11
+2019-46-21 14:08:352 INFO  ExceLHelper:115 - store String  null in :12
+2019-46-21 14:08:352 INFO  ExceLHelper:115 - store String  null in :13
+2019-46-21 14:08:353 INFO  ExceLHelper:147 - no matching data type found
+2019-46-21 14:08:355 INFO  ExceLHelper:115 - store String  null in :21
+2019-46-21 14:08:357 INFO  ExceLHelper:115 - store String  null in :22
+2019-46-21 14:08:357 INFO  ExceLHelper:115 - store String  null in :23
+2019-46-21 14:08:358 INFO  ExceLHelper:147 - no matching data type found
+2019-46-21 14:08:359 INFO  ExceLHelper:160 - exception occured: null
+2019-47-21 14:08:406 INFO  ExceLHelper:98 - skipped
+2019-47-21 14:08:410 INFO  ExceLHelper:147 - no matching data type found
+2019-47-21 14:08:410 INFO  ExceLHelper:160 - exception occured: null
+2019-50-21 14:08:470 INFO  ExceLHelper:96 - skipped
+2019-50-21 14:08:939 INFO  ExceLHelper:144 - no matching data type found
+2019-52-21 14:08:663 INFO  ExceLHelper:144 - no matching data type found
+2019-53-21 14:08:300 INFO  ExceLHelper:144 - no matching data type found
+2019-57-21 15:08:834 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-57-21 15:08:838 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-57-21 15:08:845 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-57-21 15:08:848 INFO  WaitHelper:124 - page is loaded now
+2019-57-21 15:08:665 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (443b75da07ca84af8a488f911a86525b)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-57-21 15:08:793 INFO  WaitHelper:139 - element is visible now
+2019-57-21 15:08:793 INFO  TestBase:249 - capturing UI navigation screen..
+2019-57-21 15:08:795 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 15:08:795 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-57-21 15:08:795 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 15:08:924 INFO  TestBase:197 - driver is null
+2019-57-21 15:08:925 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-57-21 15:08:926 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-57-21 15:08:926 INFO  JavaScriptHelper:32 - executing the script
+2019-57-21 15:08:957 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-57-21 15:08:567 INFO  ExceLHelper:96 - skipped
+2019-57-21 15:08:569 INFO  ExceLHelper:144 - no matching data type found
+2019-57-21 15:08:570 INFO  ExceLHelper:144 - no matching data type found
+2019-57-21 15:08:571 INFO  ExceLHelper:144 - no matching data type found
+2019-01-21 16:08:845 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-01-21 16:08:849 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-01-21 16:08:855 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-01-21 16:08:860 INFO  WaitHelper:124 - page is loaded now
+2019-01-21 16:08:317 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (7137732192f0227a9d25705f61f98592)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-01-21 16:08:405 INFO  WaitHelper:139 - element is visible now
+2019-01-21 16:08:405 INFO  TestBase:249 - capturing UI navigation screen..
+2019-01-21 16:08:407 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-01-21 16:08:407 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-01-21 16:08:408 INFO  JavaScriptHelper:32 - executing the script
+2019-01-21 16:08:479 INFO  TestBase:197 - driver is null
+2019-01-21 16:08:480 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-01-21 16:08:480 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-01-21 16:08:480 INFO  JavaScriptHelper:32 - executing the script
+2019-01-21 16:08:501 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-02-21 16:08:150 INFO  ExceLHelper:96 - skipped
+2019-02-21 16:08:152 INFO  ExceLHelper:144 - no matching data type found
+2019-02-21 16:08:153 INFO  ExceLHelper:144 - no matching data type found
+2019-02-21 16:08:154 INFO  ExceLHelper:144 - no matching data type found
+2019-02-21 16:08:167 INFO  LoginTestWithDataDrivenApproach:62 - Username is :1529830551216@gmail.com and password is: password
+2019-02-21 16:08:167 INFO  LoginPage:86 - clicking on sign in link..
+2019-02-21 16:08:846 INFO  LoginPage:91 - entering email address..1529830551216@gmail.com
+2019-02-21 16:08:50 INFO  LoginPage:96 - entering password..password
+2019-02-21 16:08:189 INFO  LoginPage:105 - clicking on submit button
+2019-02-21 16:08:189 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-02-21 16:08:190 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-02-21 16:08:190 INFO  JavaScriptHelper:32 - executing the script
+2019-04-21 16:08:617 ERROR VerificationHelper:47 - element is not present: null
+2019-04-21 16:08:127 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-04-21 16:08:420 INFO  LoginTestWithDataDrivenApproach:62 - Username is :1529830551217@gmail.com and password is: password
+2019-04-21 16:08:421 INFO  LoginPage:86 - clicking on sign in link..
+2019-04-21 16:08:602 INFO  LoginPage:91 - entering email address..1529830551217@gmail.com
+2019-04-21 16:08:916 INFO  LoginPage:96 - entering password..password
+2019-04-21 16:08:57 INFO  LoginPage:105 - clicking on submit button
+2019-04-21 16:08:57 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-04-21 16:08:58 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-04-21 16:08:58 INFO  JavaScriptHelper:32 - executing the script
+2019-04-21 16:08:939 ERROR VerificationHelper:47 - element is not present: null
+2019-05-21 16:08:582 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-05-21 16:08:597 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-05-21 16:08:613 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-05-21 16:08:628 INFO  WaitHelper:124 - page is loaded now
+2019-06-21 16:08:158 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (9856cb03e40ee3517dcabd4ae07d4e43)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-06-21 16:08:263 INFO  WaitHelper:139 - element is visible now
+2019-06-21 16:08:263 INFO  TestBase:249 - capturing UI navigation screen..
+2019-06-21 16:08:263 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 16:08:263 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-06-21 16:08:263 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 16:08:344 INFO  TestBase:197 - driver is null
+2019-06-21 16:08:344 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 16:08:344 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-06-21 16:08:345 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 16:08:370 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-06-21 16:08:937 INFO  ExceLHelper:96 - skipped
+2019-06-21 16:08:940 INFO  ExceLHelper:144 - no matching data type found
+2019-06-21 16:08:941 INFO  ExceLHelper:144 - no matching data type found
+2019-06-21 16:08:943 INFO  ExceLHelper:144 - no matching data type found
+2019-06-21 16:08:959 INFO  LoginTestWithDataDrivenApproach:63 - Username is :testname@gmail.com and password is: Adobe@1234
+2019-06-21 16:08:959 INFO  LoginPage:86 - clicking on sign in link..
+2019-06-21 16:08:571 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-06-21 16:08:762 INFO  LoginPage:96 - entering password..Adobe@1234
+2019-06-21 16:08:929 INFO  LoginPage:105 - clicking on submit button
+2019-06-21 16:08:930 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-06-21 16:08:930 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-06-21 16:08:930 INFO  JavaScriptHelper:32 - executing the script
+2019-06-21 16:08:961 ERROR VerificationHelper:47 - element is not present: null
+2019-07-21 16:08:775 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-07-21 16:08:793 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-07-21 16:08:809 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-07-21 16:08:824 INFO  WaitHelper:124 - page is loaded now
+2019-07-21 16:08:632 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (e99bf2ffeeb8e3dcd6468a9ab32d474e)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-07-21 16:08:738 INFO  WaitHelper:139 - element is visible now
+2019-07-21 16:08:738 INFO  TestBase:249 - capturing UI navigation screen..
+2019-07-21 16:08:740 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 16:08:740 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-07-21 16:08:741 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 16:08:831 INFO  TestBase:197 - driver is null
+2019-07-21 16:08:832 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 16:08:832 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-07-21 16:08:833 INFO  JavaScriptHelper:32 - executing the script
+2019-07-21 16:08:864 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-07-21 16:08:503 INFO  ExceLHelper:96 - skipped
+2019-07-21 16:08:505 INFO  ExceLHelper:144 - no matching data type found
+2019-07-21 16:08:506 INFO  ExceLHelper:144 - no matching data type found
+2019-07-21 16:08:507 INFO  ExceLHelper:144 - no matching data type found
+2019-07-21 16:08:520 INFO  LoginTestWithDataDrivenApproach:63 - Username is :testname@gmail.com and password is: testing@1234
+2019-07-21 16:08:521 INFO  LoginPage:86 - clicking on sign in link..
+2019-07-21 16:08:475 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-07-21 16:08:678 INFO  LoginPage:96 - entering password..testing@1234
+2019-07-21 16:08:886 INFO  LoginPage:105 - clicking on submit button
+2019-07-21 16:08:887 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-07-21 16:08:887 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-07-21 16:08:887 INFO  JavaScriptHelper:32 - executing the script
+2019-08-21 16:08:714 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (e99bf2ffeeb8e3dcd6468a9ab32d474e)] -> xpath: //*[@id='center_column']/p]
+2019-08-21 16:08:200 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-08-21 16:08:495 INFO  LoginTestWithDataDrivenApproach:63 - Username is :testname@gmail.com and password is: testing@1234
+2019-08-21 16:08:496 INFO  LoginPage:86 - clicking on sign in link..
+2019-08-21 16:08:438 INFO  LoginPage:91 - entering email address..testname@gmail.com
+2019-10-21 16:08:942 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-10-21 16:08:12 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-17-21 16:08:455 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-17-21 16:08:460 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-17-21 16:08:467 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-17-21 16:08:470 INFO  WaitHelper:124 - page is loaded now
+2019-17-21 16:08:58 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (4bef31297c24687768d5c0bc3d48be8f)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-17-21 16:08:147 INFO  WaitHelper:139 - element is visible now
+2019-17-21 16:08:147 INFO  TestBase:249 - capturing UI navigation screen..
+2019-17-21 16:08:149 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-17-21 16:08:149 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-17-21 16:08:149 INFO  JavaScriptHelper:32 - executing the script
+2019-17-21 16:08:215 INFO  TestBase:197 - driver is null
+2019-17-21 16:08:215 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-17-21 16:08:216 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-17-21 16:08:216 INFO  JavaScriptHelper:32 - executing the script
+2019-17-21 16:08:268 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-17-21 16:08:893 INFO  ExceLHelper:96 - skipped
+2019-17-21 16:08:896 INFO  ExceLHelper:144 - no matching data type found
+2019-17-21 16:08:897 INFO  ExceLHelper:144 - no matching data type found
+2019-17-21 16:08:898 INFO  ExceLHelper:144 - no matching data type found
+2019-17-21 16:08:910 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-17-21 16:08:911 INFO  LoginPage:89 - clicking on sign in link..
+2019-17-21 16:08:63 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-17-21 16:08:237 INFO  LoginPage:99 - entering password..testing@1234
+2019-17-21 16:08:424 INFO  LoginPage:108 - clicking on submit button
+2019-17-21 16:08:425 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-17-21 16:08:425 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-17-21 16:08:425 INFO  JavaScriptHelper:32 - executing the script
+2019-17-21 16:08:375 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (4bef31297c24687768d5c0bc3d48be8f)] -> xpath: //*[@id='center_column']/p]
+2019-18-21 16:08:151 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-18-21 16:08:411 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-18-21 16:08:412 INFO  LoginPage:89 - clicking on sign in link..
+2019-18-21 16:08:41 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-18-21 16:08:214 INFO  LoginPage:99 - entering password..testing@1234
+2019-18-21 16:08:347 INFO  LoginPage:108 - clicking on submit button
+2019-18-21 16:08:347 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-18-21 16:08:348 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-18-21 16:08:348 INFO  JavaScriptHelper:32 - executing the script
+2019-18-21 16:08:997 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (4bef31297c24687768d5c0bc3d48be8f)] -> xpath: //*[@id='center_column']/p]
+2019-18-21 16:08:125 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-18-21 16:08:187 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-21-21 16:08:748 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-21-21 16:08:753 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-21-21 16:08:760 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-21-21 16:08:763 INFO  WaitHelper:124 - page is loaded now
+2019-21-21 16:08:152 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (aa6ec3f4bff2227cfbb3c769d05e67f0)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-21-21 16:08:232 INFO  WaitHelper:139 - element is visible now
+2019-21-21 16:08:232 INFO  TestBase:249 - capturing UI navigation screen..
+2019-21-21 16:08:233 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-21-21 16:08:233 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-21-21 16:08:233 INFO  JavaScriptHelper:32 - executing the script
+2019-21-21 16:08:304 INFO  TestBase:197 - driver is null
+2019-21-21 16:08:305 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-21-21 16:08:305 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-21-21 16:08:305 INFO  JavaScriptHelper:32 - executing the script
+2019-21-21 16:08:363 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-21-21 16:08:946 INFO  ExceLHelper:96 - skipped
+2019-21-21 16:08:948 INFO  ExceLHelper:144 - no matching data type found
+2019-21-21 16:08:949 INFO  ExceLHelper:144 - no matching data type found
+2019-21-21 16:08:950 INFO  ExceLHelper:144 - no matching data type found
+2019-21-21 16:08:962 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-21-21 16:08:962 INFO  LoginPage:89 - clicking on sign in link..
+2019-21-21 16:08:848 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-21-21 16:08:06 INFO  LoginPage:99 - entering password..testing@1234
+2019-21-21 16:08:154 INFO  LoginPage:108 - clicking on submit button
+2019-21-21 16:08:154 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-21-21 16:08:155 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-21-21 16:08:155 INFO  JavaScriptHelper:32 - executing the script
+2019-21-21 16:08:808 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (aa6ec3f4bff2227cfbb3c769d05e67f0)] -> xpath: //*[@id='center_column']/p]
+2019-23-21 16:08:89 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-23-21 16:08:93 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-23-21 16:08:99 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-23-21 16:08:102 INFO  WaitHelper:124 - page is loaded now
+2019-23-21 16:08:259 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (d3e2b43f2a4e00c92581c4b3787574b1)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-23-21 16:08:343 INFO  WaitHelper:139 - element is visible now
+2019-23-21 16:08:344 INFO  TestBase:249 - capturing UI navigation screen..
+2019-23-21 16:08:345 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 16:08:345 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-23-21 16:08:345 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 16:08:417 INFO  TestBase:197 - driver is null
+2019-23-21 16:08:417 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 16:08:417 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-23-21 16:08:418 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 16:08:442 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-23-21 16:08:32 INFO  ExceLHelper:96 - skipped
+2019-23-21 16:08:35 INFO  ExceLHelper:144 - no matching data type found
+2019-23-21 16:08:36 INFO  ExceLHelper:144 - no matching data type found
+2019-23-21 16:08:38 INFO  ExceLHelper:144 - no matching data type found
+2019-23-21 16:08:56 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-23-21 16:08:56 INFO  LoginPage:89 - clicking on sign in link..
+2019-23-21 16:08:124 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-23-21 16:08:312 INFO  LoginPage:99 - entering password..testing@1234
+2019-23-21 16:08:475 INFO  LoginPage:108 - clicking on submit button
+2019-23-21 16:08:475 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 16:08:476 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-23-21 16:08:476 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 16:08:300 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (d3e2b43f2a4e00c92581c4b3787574b1)] -> xpath: //*[@id='center_column']/p]
+2019-23-21 16:08:181 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-23-21 16:08:592 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-23-21 16:08:593 INFO  LoginPage:89 - clicking on sign in link..
+2019-23-21 16:08:689 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-23-21 16:08:870 INFO  LoginPage:99 - entering password..testing@1234
+2019-23-21 16:08:998 INFO  LoginPage:108 - clicking on submit button
+2019-23-21 16:08:998 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-23-21 16:08:999 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-23-21 16:08:999 INFO  JavaScriptHelper:32 - executing the script
+2019-23-21 16:08:618 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (aa6ec3f4bff2227cfbb3c769d05e67f0)] -> xpath: //*[@id='center_column']/p]
+2019-25-21 16:08:129 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-25-21 16:08:530 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-25-21 16:08:533 INFO  LoginPage:89 - clicking on sign in link..
+2019-25-21 16:08:398 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-25-21 16:08:586 INFO  LoginPage:99 - entering password..testing@1234
+2019-25-21 16:08:715 INFO  LoginPage:108 - clicking on submit button
+2019-25-21 16:08:716 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-25-21 16:08:716 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-25-21 16:08:716 INFO  JavaScriptHelper:32 - executing the script
+2019-25-21 16:08:286 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (d3e2b43f2a4e00c92581c4b3787574b1)] -> xpath: //*[@id='center_column']/p]
+2019-26-21 16:08:845 INFO  TestBase:178 - Initialize web driver: 1604247316
+2019-26-21 16:08:849 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-26-21 16:08:855 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-26-21 16:08:860 INFO  WaitHelper:124 - page is loaded now
+2019-26-21 16:08:334 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (ccdf2b391abdab2cf1d0465c69b3531d)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-26-21 16:08:432 INFO  WaitHelper:139 - element is visible now
+2019-26-21 16:08:432 INFO  TestBase:249 - capturing UI navigation screen..
+2019-26-21 16:08:434 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 16:08:434 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-26-21 16:08:434 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 16:08:512 INFO  TestBase:197 - driver is null
+2019-26-21 16:08:513 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 16:08:513 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-26-21 16:08:514 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 16:08:533 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-26-21 16:08:105 INFO  ExceLHelper:96 - skipped
+2019-26-21 16:08:108 INFO  ExceLHelper:144 - no matching data type found
+2019-26-21 16:08:109 INFO  ExceLHelper:144 - no matching data type found
+2019-26-21 16:08:109 INFO  ExceLHelper:144 - no matching data type found
+2019-26-21 16:08:121 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-26-21 16:08:121 INFO  LoginPage:89 - clicking on sign in link..
+2019-26-21 16:08:482 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-26-21 16:08:643 INFO  LoginPage:99 - entering password..testing@1234
+2019-26-21 16:08:795 INFO  LoginPage:108 - clicking on submit button
+2019-26-21 16:08:796 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-26-21 16:08:796 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-26-21 16:08:797 INFO  JavaScriptHelper:32 - executing the script
+2019-26-21 16:08:739 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (ccdf2b391abdab2cf1d0465c69b3531d)] -> xpath: //*[@id='center_column']/p]
+2019-27-21 16:08:353 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-27-21 16:08:356 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-27-21 16:08:362 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-27-21 16:08:367 INFO  WaitHelper:124 - page is loaded now
+2019-28-21 16:08:478 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (966700931e1bdf2408c7f7c587643c95)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-28-21 16:08:572 INFO  WaitHelper:139 - element is visible now
+2019-28-21 16:08:573 INFO  TestBase:249 - capturing UI navigation screen..
+2019-28-21 16:08:574 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 16:08:575 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-28-21 16:08:575 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 16:08:646 INFO  TestBase:197 - driver is null
+2019-28-21 16:08:647 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 16:08:647 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-28-21 16:08:647 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 16:08:704 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-28-21 16:08:359 INFO  ExceLHelper:96 - skipped
+2019-28-21 16:08:362 INFO  ExceLHelper:144 - no matching data type found
+2019-28-21 16:08:363 INFO  ExceLHelper:144 - no matching data type found
+2019-28-21 16:08:364 INFO  ExceLHelper:144 - no matching data type found
+2019-28-21 16:08:376 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-28-21 16:08:376 INFO  LoginPage:89 - clicking on sign in link..
+2019-28-21 16:08:519 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-28-21 16:08:734 INFO  LoginPage:99 - entering password..testing@1234
+2019-28-21 16:08:928 INFO  LoginPage:108 - clicking on submit button
+2019-28-21 16:08:928 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 16:08:928 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-28-21 16:08:929 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 16:08:551 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (966700931e1bdf2408c7f7c587643c95)] -> xpath: //*[@id='center_column']/p]
+2019-28-21 16:08:686 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (966700931e1bdf2408c7f7c587643c95)] -> xpath: //*[@id='email']] for :200 seconds
+2019-28-21 16:08:722 INFO  WaitHelper:139 - element is visible now
+2019-28-21 16:08:722 INFO  LoginPage:152 - Successfully Logout: testname@gmail.com
+2019-28-21 16:08:206 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-28-21 16:08:509 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-28-21 16:08:509 INFO  LoginPage:89 - clicking on sign in link..
+2019-28-21 16:08:175 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-28-21 16:08:345 INFO  LoginPage:99 - entering password..testing@1234
+2019-28-21 16:08:484 INFO  LoginPage:108 - clicking on submit button
+2019-28-21 16:08:484 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 16:08:485 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-28-21 16:08:485 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 16:08:125 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (966700931e1bdf2408c7f7c587643c95)] -> xpath: //*[@id='center_column']/p]
+2019-28-21 16:08:236 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (966700931e1bdf2408c7f7c587643c95)] -> xpath: //*[@id='email']] for :200 seconds
+2019-28-21 16:08:284 INFO  WaitHelper:139 - element is visible now
+2019-28-21 16:08:284 INFO  LoginPage:152 - Successfully Logout: testname@gmail.com
+2019-28-21 16:08:703 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-28-21 16:08:785 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-28-21 16:08:607 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-28-21 16:08:972 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-28-21 16:08:973 INFO  LoginPage:89 - clicking on sign in link..
+2019-28-21 16:08:995 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-28-21 16:08:189 INFO  LoginPage:99 - entering password..testing@1234
+2019-28-21 16:08:326 INFO  LoginPage:108 - clicking on submit button
+2019-28-21 16:08:326 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-28-21 16:08:326 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-28-21 16:08:326 INFO  JavaScriptHelper:32 - executing the script
+2019-28-21 16:08:878 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (ccdf2b391abdab2cf1d0465c69b3531d)] -> xpath: //*[@id='center_column']/p]
+2019-30-21 16:08:565 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-30-21 16:08:628 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-35-21 16:08:595 INFO  TestBase:178 - Initialize web driver: 1752461090
+2019-35-21 16:08:609 INFO  WaitHelper:38 - Implicit wait has been set to:120
+2019-35-21 16:08:625 INFO  WaitHelper:122 - waiting for page to load for: 100seconds
+2019-35-21 16:08:641 INFO  WaitHelper:124 - page is loaded now
+2019-35-21 16:08:739 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (5745f18641a2acba07ccb3121d030d9e)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2019-35-21 16:08:842 INFO  WaitHelper:139 - element is visible now
+2019-35-21 16:08:842 INFO  TestBase:249 - capturing UI navigation screen..
+2019-35-21 16:08:842 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-35-21 16:08:842 INFO  JavaScriptHelper:128 - zooming in by60 percent
+2019-35-21 16:08:842 INFO  JavaScriptHelper:32 - executing the script
+2019-35-21 16:08:957 INFO  TestBase:197 - driver is null
+2019-35-21 16:08:958 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-35-21 16:08:958 INFO  JavaScriptHelper:120 - zooming in by100 percent
+2019-35-21 16:08:959 INFO  JavaScriptHelper:32 - executing the script
+2019-35-21 16:08:984 INFO  TestBase:278 - excel file location is: D:\Adobe_Workspace\uiFramework/src/main/resource/configFile/testData.xlsx
+2019-35-21 16:08:633 INFO  ExceLHelper:96 - skipped
+2019-35-21 16:08:633 INFO  ExceLHelper:144 - no matching data type found
+2019-35-21 16:08:633 INFO  ExceLHelper:144 - no matching data type found
+2019-35-21 16:08:633 INFO  ExceLHelper:144 - no matching data type found
+2019-35-21 16:08:649 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-35-21 16:08:649 INFO  LoginPage:89 - clicking on sign in link..
+2019-35-21 16:08:834 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-35-21 16:08:998 INFO  LoginPage:99 - entering password..testing@1234
+2019-35-21 16:08:153 INFO  LoginPage:108 - clicking on submit button
+2019-35-21 16:08:153 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-35-21 16:08:154 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-35-21 16:08:154 INFO  JavaScriptHelper:32 - executing the script
+2019-35-21 16:08:929 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (5745f18641a2acba07ccb3121d030d9e)] -> xpath: //*[@id='center_column']/p]
+2019-35-21 16:08:25 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (5745f18641a2acba07ccb3121d030d9e)] -> xpath: //*[@id='email']] for :200 seconds
+2019-35-21 16:08:59 INFO  WaitHelper:139 - element is visible now
+2019-35-21 16:08:59 INFO  LoginPage:152 - Successfully Logout: testname@gmail.com
+2019-35-21 16:08:429 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-35-21 16:08:742 INFO  LoginTestWithDataDrivenApproach:64 - Username is :testname@gmail.com and password is: testing@1234
+2019-35-21 16:08:742 INFO  LoginPage:89 - clicking on sign in link..
+2019-35-21 16:08:633 INFO  LoginPage:94 - entering email address..testname@gmail.com
+2019-35-21 16:08:791 INFO  LoginPage:99 - entering password..testing@1234
+2019-35-21 16:08:912 INFO  LoginPage:108 - clicking on submit button
+2019-35-21 16:08:913 INFO  JavaScriptHelper:25 - JavaScriptHelper has been initialised
+2019-35-21 16:08:913 INFO  JavaScriptHelper:87 - scrolling donw vertically
+2019-35-21 16:08:913 INFO  JavaScriptHelper:32 - executing the script
+2019-35-21 16:08:466 INFO  VerificationHelper:41 - element is displayed: [[ChromeDriver: chrome on XP (5745f18641a2acba07ccb3121d030d9e)] -> xpath: //*[@id='center_column']/p]
+2019-35-21 16:08:713 INFO  WaitHelper:136 - Waiting for :[[ChromeDriver: chrome on XP (5745f18641a2acba07ccb3121d030d9e)] -> xpath: //*[@id='email']] for :200 seconds
+2019-35-21 16:08:755 INFO  WaitHelper:139 - element is visible now
+2019-35-21 16:08:756 INFO  LoginPage:152 - Successfully Logout: testname@gmail.com
+2019-35-21 16:08:158 INFO  TestBase:125 - ************testLoginPageFinished**********
+2019-35-21 16:08:224 INFO  TestBase:125 - ************testLoginPageFinished**********

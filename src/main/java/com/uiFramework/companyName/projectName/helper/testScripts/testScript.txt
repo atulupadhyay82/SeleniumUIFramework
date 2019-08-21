@@ -1,0 +1,2 @@
+We have seen how to design pageobject and helper class. now we will see how to design testscripts by combining all the helper class and
+pageobject. All the testscript will extend the testbase.

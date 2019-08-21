@@ -1,0 +1,31 @@
+Q-How to configure testNg file in pom.xml
+A-just add maven surefire plugin and give location of all your testNG testcase XML file there.
+
+Q-How to run them 
+A-run pom.xml via maven test command. All you xml testcases get executed, report (extent and emailable) gets generated.
+
+Q-What is the benefit of this
+A-In your project, you can have multiple testsuite based on your module like LoginModule.xml, RegistrationModule.xml and ProductCategory.xml.To run them 
+all in one shot, there is no other way. We need to configure them in "pom.xml" file. Everything will get executed one by one
+
+Q-Is there any way to supply test data to all your testscripts via "pom.xml"?
+A- use following tag in your plugin
+					<systemPropertyVariables>
+						<property>
+							<name>username</name>
+							<value>${DuserName}</value>
+						</property>
+						<property>
+							<name>password</name>
+							<value>${Dpassword}</value>
+						</property>
+						<property>
+							<name>url</name>
+							<value>${Durl}</value>
+						</property>
+					
+Now we are able to supply username and password to any testscipts. To read them from pom.xml, you need to make some chamges
+in PropertyReader class and changing their interface accordingly. Access them using System.getProperty(key)
+
+To test them, run with configuration, provide their value at their runtime via the vm arguments there by "-Durl=". You can do this for pom.xml or testNG.xml or runnig testscipt file.you just
+need to provide the value to these properties in VM arguments otherwise they will pick the default one, provided in config.text

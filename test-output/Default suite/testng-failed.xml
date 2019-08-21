@@ -3,16 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript1">
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.LoginTestWithDataDrivenApproach">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeClass"/>
-          <include name="testLogin4"/>
           <include name="beforeMethod"/>
-          <include name="testLogin1"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="testLoginPage" invocation-numbers="2"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript1 -->
+      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.LoginTestWithDataDrivenApproach -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

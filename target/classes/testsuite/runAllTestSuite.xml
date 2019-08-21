@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Keep test name and className same -->
+<!-- to run all the test scripts once -->
+<suite name="Suite">
+  <test name="LoginTest">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.LoginTest"/>
+    </classes>
+  </test>
+   <test name="RegistrationTest">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest"/>
+    </classes>
+  </test>
+   <test name="VerifySortFilter">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

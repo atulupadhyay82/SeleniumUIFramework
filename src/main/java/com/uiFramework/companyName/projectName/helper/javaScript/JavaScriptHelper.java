@@ -14,7 +14,7 @@ import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
 public class JavaScriptHelper {
 	
 	//define logger class object
-			private Logger log= LoggerHelper.getLogger(WaitHelper.class);
+			private Logger log= LoggerHelper.getLogger(JavaScriptHelper.class);
 			
 			//Define WebDriver class object
 			private WebDriver driver;
@@ -22,12 +22,14 @@ public class JavaScriptHelper {
 			//Calling class will supply WebDriver class object to this via the constructor. Hence object defined private.	
 			public JavaScriptHelper(WebDriver driver) {
 				this.driver=driver;
+				log.info("JavaScriptHelper has been initialised");
 			}
 			
 			/*
 			 * Will execute some java script
 			 */
 			public Object executeScript(String script) {
+				log.info("executing the script");
 				JavascriptExecutor exec = (JavascriptExecutor)driver;
 				return exec.executeScript(script);
 			}
@@ -37,6 +39,7 @@ public class JavaScriptHelper {
 			 */
 			
 			public Object executeScript(String script,Object...objects) {
+				log.info("executing the script with mutliple arguments");
 				JavascriptExecutor exec = (JavascriptExecutor)driver;
 				return exec.executeScript(script,objects);
 			}
@@ -82,13 +85,13 @@ public class JavaScriptHelper {
 			public void scrollDownVertically()
 			{
 				log.info("scrolling donw vertically");
-				executeScript("window.scrollTo(0, document.body.scrollHeight)");
+				executeScript("window.scrollTo(0,document.body.scrollHeight)");
 			}
 			
 			public void scrollUpVertically()
 			{
 				log.info("scrolling up vertically");
-				executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+				executeScript("window.scrollTo(0,-document.body.scrollHeight)");
 			}
 			/**
 			 * will scroll down till given pixel(eg-1500)
@@ -107,20 +110,23 @@ public class JavaScriptHelper {
 			public void scrollUpByPixel(int pixel)
 			{
 				log.info("scrolling up vertically by :"+pixel);
+				
 				executeScript("window.scrollBY(0,-"+pixel+")");
 			}
 			/**
 			 * will zoom by 100 percent
 			 */
 			public void zoomBy100Percent() {
-					executeScript("document.body.style.zoom=100%");
+				log.info("zooming in by100 percent");
+				executeScript("document.body.style.zoom='100%'");
 			}
 			
 			/**
 			 * will zoom by 60 percent
 			 */
 			public void zoomBy60Percent() {
-					executeScript("document.body.style.zoom=60%");
+				log.info("zooming in by60 percent");
+				executeScript("document.body.style.zoom='60%'");
 			}
 			
 			/**
@@ -128,6 +134,6 @@ public class JavaScriptHelper {
 			 * @param element
 			 */
 			public void clickElement(WebElement element) {
-				executeScript("arguments[0].click();",element);
+				executeScript("arguments[0].click();", element);
 			}
 }

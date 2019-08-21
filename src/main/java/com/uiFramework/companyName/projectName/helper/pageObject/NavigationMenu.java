@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.uiFramework.companyName.projectName.helper.browserConfig.config.ObjectReader;
+import com.uiFramework.companyName.projectName.helper.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
 import com.uiFramework.companyName.projectName.helper.testBase.TestBase;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;

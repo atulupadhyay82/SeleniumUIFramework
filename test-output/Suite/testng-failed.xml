@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="RegistrationTest(failed)">
     <classes>
-      <class name="com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript2">
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest">
         <methods>
-          <include name="testLogin7"/>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeClass"/>
+          <include name="testToRegisterNewUser"/>
           <include name="beforeMethod"/>
-          <include name="testLogin5"/>
-        </methods>
-      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript2 -->
-      <class name="com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript1">
-        <methods>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
           <include name="afterMethod"/>
-          <include name="beforeClass"/>
-          <include name="testLogin4"/>
-          <include name="beforeMethod"/>
-          <include name="testLogin1"/>
         </methods>
-      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.ExtentTestScript1 -->
+      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- RegistrationTest(failed) -->
+  <test thread-count="5" name="VerifySortFilter(failed)">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="verifyLowestFirstPriceInProductList"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter -->
+    </classes>
+  </test> <!-- VerifySortFilter(failed) -->
 </suite> <!-- Failed suite [Suite] -->

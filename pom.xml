@@ -64,9 +64,39 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.6</version>
 		</dependency>
-
-
-
-
 	</dependencies>
+
+	<!--How to configure testNg file in pom.xml and run them -> run pom.xmlvia 
+		maven test. All you xml testcases get executed, report gets generated -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<systemPropertyVariables>
+						<property>
+							<name>username</name>
+							<value>${DuserName}</value>
+						</property>
+						<property>
+							<name>password</name>
+							<value>${Dpassword}</value>
+						</property>
+						<property>
+							<name>url</name>
+							<value>${Durl}</value>
+						</property>
+
+					</systemPropertyVariables>
+					<suiteXmlFiles>
+						<!-- you can write here multiple testNG file -->
+						<suiteXmlFile>src/main/resource/testsuite/runAllTestSuite.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 </project>

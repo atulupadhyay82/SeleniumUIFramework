@@ -12,7 +12,7 @@ public class TestScreenShot extends TestBase{
 	@Test
 	public void takeScreens() {
 		driver.get("https://www.youtube.com/");
-		captureScreen("firstScreen");
+		captureScreen("firstScreen", driver);
 	}
 
 }

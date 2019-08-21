@@ -13,7 +13,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
  * such as pie chart representation, test stepwise report generation, adding screenshots with each test step etc., 
  * at every test step and a presentable user interface that can be shared with all stakeholders of the project.
  * @author atupadhy
- *
+ * Drawback- If the page is big, it will not able to take the screenhot of entire page. Here you can use JavaScriptHelper class
+ * to zoomin the page by 40 percent.
  */
 public class ExtentManager {
 	
