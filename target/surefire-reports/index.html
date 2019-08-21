@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uiFramework.companyName.projectName.helper.testScripts.LoginTest" hash-for-method="testLoginToApplication">testLoginToApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest" hash-for-method="testToRegisterNewUser">testToRegisterNewUser</a> <!-- method navigator-link -->
@@ -116,6 +111,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uiFramework.companyName.projectName.helper.testScripts.LoginTest" hash-for-method="testLoginToApplication">testLoginToApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -138,23 +147,11 @@
                   <a name="verifyLowestFirstPriceInProductList">
                   </a> <!-- verifyLowestFirstPriceInProductList -->
                   <span class="method-name">verifyLowestFirstPriceInProductList</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ATUPADHY-WX-1&apos;, ip: &apos;192.168.227.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f39f953a8c16a8cfafd4031dba507f2a
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-	at com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList(VerifySortFilter.java:33)
-... Removed 33 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: price filter is not working expected [true] but found [false]
+	at com.uiFramework.companyName.projectName.helper.assertion.AssertionHelper.makeFalse(AssertionHelper.java:50)
+	at com.uiFramework.companyName.projectName.helper.pageObject.ProductCategoryPage.verifyArrayHasAscendingData(ProductCategoryPage.java:244)
+	at com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList(VerifySortFilter.java:54)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -171,31 +168,18 @@ Session ID: f39f953a8c16a8cfafd4031dba507f2a
                   <a name="testToRegisterNewUser">
                   </a> <!-- testToRegisterNewUser -->
                   <span class="method-name">testToRegisterNewUser</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ATUPADHY-WX-1&apos;, ip: &apos;192.168.227.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7ea92c1fb7bb5bb7fa350e5ae06329e9
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-	at com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest.testToRegisterNewUser(RegistrationTest.java:24)
-... Removed 33 stack frames
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.uiFramework.companyName.projectName.helper.pageObject.RegistrationPage.setDay(RegistrationPage.java:189)
+	at com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest.testToRegisterNewUser(RegistrationTest.java:42)
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.uiFramework.companyName.projectName.helper.testScripts.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -204,30 +188,12 @@ Session ID: 7ea92c1fb7bb5bb7fa350e5ae06329e9
                   <a name="testLoginToApplication">
                   </a> <!-- testLoginToApplication -->
                   <span class="method-name">testLoginToApplication</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ATUPADHY-WX-1&apos;, ip: &apos;192.168.227.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a7047ed82781137ae63787e5a10688d
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-	at com.uiFramework.companyName.projectName.helper.testScripts.LoginTest.testLoginToApplication(LoginTest.java:28)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Login test with valid credentials)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -298,22 +264,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginToApplication')
-data.setCell(0, 2, 'com.uiFramework.companyName.projectName.helper.testScripts.LoginTest')
-data.setCell(0, 3, 37);
+data.setCell(0, 1, 'verifyLowestFirstPriceInProductList')
+data.setCell(0, 2, 'com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter')
+data.setCell(0, 3, 18905);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testToRegisterNewUser')
 data.setCell(1, 2, 'com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest')
-data.setCell(1, 3, 8);
+data.setCell(1, 3, 12354);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLowestFirstPriceInProductList')
-data.setCell(2, 2, 'com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter')
-data.setCell(2, 3, 6);
+data.setCell(2, 1, 'testLoginToApplication')
+data.setCell(2, 2, 'com.uiFramework.companyName.projectName.helper.testScripts.LoginTest')
+data.setCell(2, 3, 12109);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 ms</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -349,87 +315,73 @@ return data;
               <div class="chronological-class-name">com.uiFramework.companyName.projectName.helper.testScripts.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">187 ms</span>
+                <span class="method-start">141 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">5075 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.uiFramework.companyName.projectName.helper.testScripts.LoginTest.testLoginToApplicat...)</span>
-                <span class="method-start">5093 ms</span>
+                <span class="method-start">4987 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testLoginToApplication</span>
-                <span class="method-start">5105 ms</span>
+                <span class="method-start">4999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testLoginToApplication status=FAILURE method=LoginTest.testLoginToApplication()[pri...)</span>
-                <span class="method-start">5154 ms</span>
+                <span class="method-name">afterMethod([TestResult name=testLoginToApplication status=SUCCESS method=LoginTest.testLoginToApplication()[pri...)</span>
+                <span class="method-start">17112 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">5921 ms</span>
+                <span class="method-start">18001 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">7244 ms</span>
+                <span class="method-start">18847 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">11480 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest.testToRegist...)</span>
-                <span class="method-start">11481 ms</span>
+                <span class="method-start">22897 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testToRegisterNewUser</span>
-                <span class="method-start">11482 ms</span>
+                <span class="method-start">22897 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testToRegisterNewUser status=FAILURE method=RegistrationTest.testToRegisterNewUser(...)</span>
-                <span class="method-start">11491 ms</span>
+                <span class="method-start">35259 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">11896 ms</span>
+                <span class="method-start">35725 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">12912 ms</span>
+                <span class="method-start">36612 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">16947 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowest...)</span>
-                <span class="method-start">16948 ms</span>
+                <span class="method-start">40607 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLowestFirstPriceInProductList</span>
-                <span class="method-start">16948 ms</span>
+                <span class="method-start">40607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=verifyLowestFirstPriceInProductList status=FAILURE method=VerifySortFilter.verifyLo...)</span>
-                <span class="method-start">16955 ms</span>
+                <span class="method-start">59512 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">17393 ms</span>
+                <span class="method-start">59968 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -68,5 +68,22 @@ Q- How to Create the project and run the test.
 	also get generated. But there is problem in viewing the extent report on jenkins as it don't load the css. To view this properly, You can check this from your project.
 	
 	You can access the project from the remote location. Jenkins will help you to run your test remotely i.e. they will not execute locally and they will execute on machine it is hosted
-			 
+
+Q-Run testNG xml from Jenkin
+	A-When we have framwork, we can have many testNG.xml suite based on module, sanity and regression and all that.	You need to make changes in <suiteXmlFile> 	-
+	<suiteXmlFiles>
+		<!-- you can write here multiple testNG file -->
+		<suiteXmlFile>src/main/resource/testsuite/runAllTestSuite.xml</suiteXmlFile>
+	</suiteXmlFiles>	 
+	here instead of hardcoding the testNG xml file, we will make it dyamic.
+	<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+	
+	Add choice paramter in jenkins by 
+	name- testSuiteName
+	chocies- Name of all testNG xml in your framework.
+	
+	then go to the build, write below thing in goal
+	test -DsuiteXmlFile=src/main/resources/testSuite/$testSuiteName (location of testsuite file)
+	
+	Whatever you select in the choice parameter, that testNG file will get executed. We can read the Jenkins parameters in testscript using pom.xml
 		 

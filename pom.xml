@@ -92,7 +92,7 @@
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<!-- you can write here multiple testNG file -->
-						<suiteXmlFile>src/main/resource/testsuite/runAllTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

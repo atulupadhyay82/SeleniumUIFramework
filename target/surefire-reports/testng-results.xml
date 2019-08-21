@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
     <line>
       <![CDATA[capturescreen method is called]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_21_08_2019_09_20_47.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_21_08_2019_09_20_47.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_22_08_2019_12_42_07.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_22_08_2019_12_42_07.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[capturescreen method is called]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_21_08_2019_09_20_53.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_21_08_2019_09_20_53.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_22_08_2019_12_42_25.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_22_08_2019_12_42_25.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[capturescreen method is called]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_21_08_2019_09_20_59.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_21_08_2019_09_20_59.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_22_08_2019_12_42_49.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_22_08_2019_12_42_49.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="18057" started-at="2019-08-21T03:50:42Z" finished-at="2019-08-21T03:51:00Z">
+  <suite name="Suite" duration-ms="60674" started-at="2019-08-21T19:11:50Z" finished-at="2019-08-21T19:12:51Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="7033" started-at="2019-08-21T03:50:42Z" finished-at="2019-08-21T03:50:49Z">
+    <test name="LoginTest" duration-ms="18690" started-at="2019-08-21T19:11:50Z" finished-at="2019-08-21T19:12:09Z">
       <class name="com.uiFramework.companyName.projectName.helper.testScripts.LoginTest">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="BeforeTest" is-config="true" duration-ms="4880" started-at="2019-08-21T03:50:42Z" finished-at="2019-08-21T03:50:47Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="BeforeTest" is-config="true" duration-ms="4818" started-at="2019-08-21T19:11:50Z" finished-at="2019-08-21T19:11:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="beforeClass" is-config="true" duration-ms="8" started-at="2019-08-21T03:50:47Z" finished-at="2019-08-21T03:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2019-08-21T03:50:47Z" finished-at="2019-08-21T03:50:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2019-08-21T19:11:55Z" finished-at="2019-08-21T19:11:55Z">
           <params>
             <param index="0">
               <value>
@@ -44,38 +40,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testLoginToApplication()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="testLoginToApplication" duration-ms="37" started-at="2019-08-21T03:50:47Z" description="Login test with valid credentials" finished-at="2019-08-21T03:50:47Z">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a7047ed82781137ae63787e5a10688d]]>
-            </message>
+        <test-method status="PASS" signature="testLoginToApplication()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="testLoginToApplication" duration-ms="12109" started-at="2019-08-21T19:11:55Z" description="Login test with valid credentials" finished-at="2019-08-21T19:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginToApplication -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="afterMethod" is-config="true" duration-ms="889" started-at="2019-08-21T19:12:07Z" finished-at="2019-08-21T19:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginToApplication status=SUCCESS method=LoginTest.testLoginToApplication()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[capturescreen method is called]]>
+            </line>
+            <line>
+              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_22_08_2019_12_42_07.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_22_08_2019_12_42_07.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="afterTest" is-config="true" duration-ms="830" started-at="2019-08-21T19:12:08Z" finished-at="2019-08-21T19:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="RegistrationTest" duration-ms="17765" started-at="2019-08-21T19:12:09Z" finished-at="2019-08-21T19:12:27Z">
+      <class name="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="BeforeTest" is-config="true" duration-ms="4050" started-at="2019-08-21T19:12:09Z" finished-at="2019-08-21T19:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="FAIL" signature="testToRegisterNewUser()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="testToRegisterNewUser" duration-ms="12354" started-at="2019-08-21T19:12:13Z" finished-at="2019-08-21T19:12:25Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a7047ed82781137ae63787e5a10688d
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-at com.uiFramework.companyName.projectName.helper.testScripts.LoginTest.testLoginToApplication(LoginTest.java:28)
+              <![CDATA[java.lang.NullPointerException
+at com.uiFramework.companyName.projectName.helper.pageObject.RegistrationPage.setDay(RegistrationPage.java:189)
+at com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest.testToRegisterNewUser(RegistrationTest.java:42)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,44 +110,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginToApplication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="afterMethod" is-config="true" duration-ms="765" started-at="2019-08-21T03:50:47Z" finished-at="2019-08-21T03:50:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginToApplication status=FAILURE method=LoginTest.testLoginToApplication()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[capturescreen method is called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_21_08_2019_09_20_47.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testLoginToApplication_21_08_2019_09_20_47.png'height='100' width='100'/></a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.LoginTest@5e3a8624]" name="afterTest" is-config="true" duration-ms="1298" started-at="2019-08-21T03:50:48Z" finished-at="2019-08-21T03:50:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.LoginTest -->
-    </test> <!-- LoginTest -->
-    <test name="RegistrationTest" duration-ms="5654" started-at="2019-08-21T03:50:49Z" finished-at="2019-08-21T03:50:55Z">
-      <class name="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="BeforeTest" is-config="true" duration-ms="4236" started-at="2019-08-21T03:50:49Z" finished-at="2019-08-21T03:50:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-21T03:50:53Z" finished-at="2019-08-21T03:50:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-08-21T03:50:53Z" finished-at="2019-08-21T03:50:53Z">
+        </test-method> <!-- testToRegisterNewUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-21T19:12:13Z" finished-at="2019-08-21T19:12:13Z">
           <params>
             <param index="0">
               <value>
@@ -155,74 +125,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testToRegisterNewUser()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="testToRegisterNewUser" duration-ms="8" started-at="2019-08-21T03:50:53Z" finished-at="2019-08-21T03:50:53Z">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7ea92c1fb7bb5bb7fa350e5ae06329e9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7ea92c1fb7bb5bb7fa350e5ae06329e9
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-at com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest.testToRegisterNewUser(RegistrationTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testToRegisterNewUser -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="afterMethod" is-config="true" duration-ms="405" started-at="2019-08-21T03:50:53Z" finished-at="2019-08-21T03:50:54Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="afterMethod" is-config="true" duration-ms="466" started-at="2019-08-21T19:12:25Z" finished-at="2019-08-21T19:12:26Z">
           <params>
             <param index="0">
               <value>
@@ -235,62 +138,50 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
               <![CDATA[capturescreen method is called]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_21_08_2019_09_20_53.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_21_08_2019_09_20_53.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_22_08_2019_12_42_25.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\testToRegisterNewUser_22_08_2019_12_42_25.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="afterTest" is-config="true" duration-ms="1001" started-at="2019-08-21T03:50:54Z" finished-at="2019-08-21T03:50:55Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest@3c0ecd4b]" name="afterTest" is-config="true" duration-ms="887" started-at="2019-08-21T19:12:26Z" finished-at="2019-08-21T19:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest -->
     </test> <!-- RegistrationTest -->
-    <test name="VerifySortFilter" duration-ms="5331" started-at="2019-08-21T03:50:55Z" finished-at="2019-08-21T03:51:00Z">
+    <test name="VerifySortFilter" duration-ms="24203" started-at="2019-08-21T19:12:27Z" finished-at="2019-08-21T19:12:51Z">
       <class name="com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="beforeSuite" is-config="true" duration-ms="186" started-at="2019-08-21T03:50:42Z" finished-at="2019-08-21T03:50:42Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="beforeSuite" is-config="true" duration-ms="141" started-at="2019-08-21T19:11:50Z" finished-at="2019-08-21T19:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="BeforeTest" is-config="true" duration-ms="4035" started-at="2019-08-21T03:50:55Z" finished-at="2019-08-21T03:50:59Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="BeforeTest" is-config="true" duration-ms="3995" started-at="2019-08-21T19:12:27Z" finished-at="2019-08-21T19:12:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-21T03:50:59Z" finished-at="2019-08-21T03:50:59Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-21T19:12:31Z" finished-at="2019-08-21T19:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="verifyLowestFirstPriceInProductList()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="verifyLowestFirstPriceInProductList" duration-ms="6" started-at="2019-08-21T03:50:59Z" finished-at="2019-08-21T03:50:59Z">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyLowestFirstPriceInProductList()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="verifyLowestFirstPriceInProductList" duration-ms="18905" started-at="2019-08-21T19:12:31Z" finished-at="2019-08-21T19:12:49Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f39f953a8c16a8cfafd4031dba507f2a]]>
+              <![CDATA[price filter is not working expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=76.0.3809.100)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ATUPADHY-WX-1', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\atupadhy\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f39f953a8c16a8cfafd4031dba507f2a
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-at com.uiFramework.companyName.projectName.helper.testBase.TestBase.getApplicationURL(TestBase.java:273)
-at com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList(VerifySortFilter.java:33)
+              <![CDATA[java.lang.AssertionError: price filter is not working expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.uiFramework.companyName.projectName.helper.assertion.AssertionHelper.makeFalse(AssertionHelper.java:50)
+at com.uiFramework.companyName.projectName.helper.pageObject.ProductCategoryPage.verifyArrayHasAscendingData(ProductCategoryPage.java:244)
+at com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList(VerifySortFilter.java:54)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -322,22 +213,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLowestFirstPriceInProductList -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-21T03:50:59Z" finished-at="2019-08-21T03:50:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter.verifyLowestFirstPriceInProductList() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="afterMethod" is-config="true" duration-ms="438" started-at="2019-08-21T03:50:59Z" finished-at="2019-08-21T03:50:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="afterMethod" is-config="true" duration-ms="456" started-at="2019-08-21T19:12:49Z" finished-at="2019-08-21T19:12:50Z">
           <params>
             <param index="0">
               <value>
@@ -350,11 +230,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
               <![CDATA[capturescreen method is called]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_21_08_2019_09_20_59.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_21_08_2019_09_20_59.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_22_08_2019_12_42_49.png'><img src='D:\Adobe_Workspace\uiFramework\src\main\resource\screenShots\verifyLowestFirstPriceInProductList_22_08_2019_12_42_49.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="afterTest" is-config="true" duration-ms="850" started-at="2019-08-21T03:50:59Z" finished-at="2019-08-21T03:51:00Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter@42dafa95]" name="afterTest" is-config="true" duration-ms="847" started-at="2019-08-21T19:12:50Z" finished-at="2019-08-21T19:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

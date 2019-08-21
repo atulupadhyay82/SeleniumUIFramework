@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test thread-count="5" verbose="0" name="LoginTest(failed)">
-    <classes>
-      <class name="com.uiFramework.companyName.projectName.helper.testScripts.LoginTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="BeforeTest"/>
-          <include name="testLoginToApplication"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.uiFramework.companyName.projectName.helper.testScripts.LoginTest -->
-    </classes>
-  </test> <!-- LoginTest(failed) -->
   <test thread-count="5" verbose="0" name="RegistrationTest(failed)">
     <classes>
       <class name="com.uiFramework.companyName.projectName.helper.testScripts.RegistrationTest">
         <methods>
-          <include name="beforeClass"/>
           <include name="testToRegisterNewUser"/>
           <include name="beforeMethod"/>
           <include name="afterTest"/>
@@ -35,7 +19,6 @@
     <classes>
       <class name="com.uiFramework.companyName.projectName.helper.testScripts.VerifySortFilter">
         <methods>
-          <include name="beforeClass"/>
           <include name="beforeMethod"/>
           <include name="verifyLowestFirstPriceInProductList"/>
           <include name="afterTest"/>
